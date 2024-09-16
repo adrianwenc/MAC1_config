@@ -1,0 +1,106 @@
+
+BOT_NAME: "FUTURES BOT"
+
+#Set Default
+BOT_ENABLED: true
+
+mode: "Futures"
+
+#PROD
+# keystoneHostName: ""
+# keystoneUser: ""
+
+# harmonyEndpoint: "tcp://10.3.15.31:78001"
+# keystoneHost: "10.20.3.47"
+# keystonePort: "5101"
+# keystoneClientVersion: "STRAT_NAME v0.1"
+
+
+
+#SIM
+#Sawyer
+CQG_SUBACCOUNT: "17765174"
+CQG_USER_NAME: 'SVietmeierSIM'
+KEYSTONE_CLEARING_ACCOUNT: "SIMSV001"
+keystoneHostName: "sawyer"
+keystoneUser: "sawyer"
+
+#Adrian
+# CQG_SUBACCOUNT: "17752711"
+# CQG_USER_NAME: "awencSIM"
+# KEYSTONE_CLEARING_ACCOUNT: "10852"
+# keystoneHostName: "harmony"
+# keystoneUser: "sim"
+
+
+
+
+keystoneHost: "10.20.3.45"
+keystonePort: "5101"
+keystoneClientVersion: "Harmony v0.1"
+harmonyEndpoint: "tcp://10.3.15.51:58001"
+
+
+# Do these work?
+mainLogsPath: ~/1_Full_Logs.log
+statsLogsPath: ~/2_Stats_Logs.json
+
+
+flask_port: 8004  #8003 # Port where Flask app runs
+
+
+
+
+data_store:
+
+################################################################################################
+################################################################################################
+##PRODUCTION
+  "YM":
+    CQG_PRODUCT_NAME: "YM"
+    VERSION: 1
+    CONTRACT_MONTH: "U"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "YM"
+    SIZE: 1
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: 'FUTURE'
+    POSITION: 0
+    HARMONY_POSITION: 0   
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    clOrdID: 0
+    STOPPED_OUT: False
+    ACTION: ""
+    TYPE: ""
+
+
+    
+    
+    # CQG_SUBACCOUNT: "17765174"
+    # KEYSTONE_CLEARING_ACCOUNT: "SIMSV001"
+    # STOP_BASIS_POINT: 0.99
+    # stopTicks: 20
+    ENTRY_BASIS_POINT: 0.0004
+    # MINIMUM_TICK_INCRAMENT: 0.25
+    # THEME1: 1
+    # THEME2: 1
+    # THEME3: 1
+    # OVERALL_TRADE_NUM: 0
+    # ALPHA_TRADE_NUM: 0
+    # ROUND_TRIP_NUM: 0
+    # MAX_POSITION: 3
+
+
+  
+
+
+ 
+
+
+  
+
+CQG_PRODUCT_TYPES:
+  FUTURE: 'F.US.'
+  EQUITY: 'S.US.'
+

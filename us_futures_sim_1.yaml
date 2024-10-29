@@ -1,0 +1,134 @@
+BOT_NAME: "US Futures Sim 1"
+BOT_ENABLED: true
+mode: "Futures"
+CQG_SUBACCOUNT: "17752709"
+CQG_USER_NAME: "awencSIM"
+harmonyEndpoint: "tcp://10.10.0.93:58027"
+mainLogsPath: ~/1_Full_Logs.log
+statsLogsPath: ~/2_Stats_Logs.json
+flask_port: 9001
+
+data_store:
+  "YM":
+    CQG_PRODUCT_NAME: "YM"
+    VERSION: 1
+    CONTRACT_MONTH: "Z"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "YM"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 1
+    THEME2: 1
+    THEME3: 1
+    
+
+  "ES":
+    CQG_PRODUCT_NAME: "EP"
+    VERSION: 1
+    CONTRACT_MONTH: "Z"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "ES"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 1
+    THEME2: 1
+    
+
+  "NQ":
+    CQG_PRODUCT_NAME: "ENQ"
+    VERSION: 1
+    CONTRACT_MONTH: "Z"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "NQ"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 1
+    THEME2: 1
+    
+
+  "CL":
+    CQG_PRODUCT_NAME: "CLE"
+    VERSION: 1
+    CONTRACT_MONTH: "Z"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "CL"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 1
+    THEME2: 1
+    THEME3: 1
+    
+
+  "GC":
+    CQG_PRODUCT_NAME: "GCE"
+    VERSION: 1
+    CONTRACT_MONTH: "Z"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "GC"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 1
+    THEME2: 1
+    THEME3: 1
+    
+
+
+  "MBT":
+    CQG_PRODUCT_NAME: "MBT"
+    VERSION: 1
+    CONTRACT_MONTH: "X"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "MBT"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 1
+    THEME2: 1
+    
+
+
+
+CQG_PRODUCT_TYPES:
+  FUTURE: "F.US."
+  EQUITY: "S.QH."

@@ -24,9 +24,9 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
-    THEME3: 1
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
     
 
   "ES":
@@ -44,8 +44,8 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
+    THEME1: 0
+    THEME2: 0
     
 
   "NQ":
@@ -63,8 +63,8 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
+    THEME1: 0
+    THEME2: 0
     
 
   "CL":
@@ -82,9 +82,9 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
-    THEME3: 1
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
     
 
   "GC":
@@ -102,9 +102,9 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
-    THEME3: 1
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
     
 
 
@@ -123,8 +123,8 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
+    THEME1: 0
+    THEME2: 0
     
 
 

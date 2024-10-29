@@ -1,20 +1,23 @@
 BOT_NAME: "US Futures Sim 1"
 BOT_ENABLED: true
 mode: "Futures"
-CQG_SUBACCOUNT: "17752709"
-CQG_USER_NAME: "awencSIM"
-harmonyEndpoint: "tcp://10.10.0.93:58027"
+# CQG_SUBACCOUNT: "17752709"
+CQG_SUBACCOUNT: '10857'
+# CQG_USER_NAME: "awencSIM"
+CQG_USER_NAME: 'PT-AWenc-FOE'
+# harmonyEndpoint: "tcp://10.10.0.93:58027" #SIM
+harmonyEndpoint: "tcp://10.20.3.28:58027" #PROD
 mainLogsPath: ~/1_Full_Logs.log
 statsLogsPath: ~/2_Stats_Logs.json
 flask_port: 9001
 
 data_store:
   "YM":
-    CQG_PRODUCT_NAME: "YM"
+    CQG_PRODUCT_NAME: "MYM"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "YM"
+    KEYSTONE_PRODUCT_NAME: "MYM"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0

@@ -1,23 +1,23 @@
 BOT_NAME: "US Futures Sim 1"
 BOT_ENABLED: true
 mode: "Futures"
-CQG_SUBACCOUNT: "17752709"
-# CQG_SUBACCOUNT: '10857'
-CQG_USER_NAME: "awencSIM"
-# CQG_USER_NAME: 'PT-AWenc-FOE'
-harmonyEndpoint: "tcp://10.10.0.93:58027" #SIM
-# harmonyEndpoint: "tcp://10.20.3.28:58027" #PROD
+# CQG_SUBACCOUNT: "17752709"
+CQG_SUBACCOUNT: '10857'
+# CQG_USER_NAME: "awencSIM"
+CQG_USER_NAME: 'PT-AWenc-FOE'
+# harmonyEndpoint: "tcp://10.10.0.93:58027" #SIM
+harmonyEndpoint: "tcp://10.20.3.28:58027" #PROD
 mainLogsPath: ~/1_Full_Logs.log
 statsLogsPath: ~/2_Stats_Logs.json
-flask_port: 9001
+flask_port: 9002
 
 data_store:
   "YM":
-    CQG_PRODUCT_NAME: "MYM"
+    CQG_PRODUCT_NAME: "YM"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "MYM"
+    KEYSTONE_PRODUCT_NAME: "YM"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -27,9 +27,9 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 0
-    THEME2: 0
-    THEME3: 0
+    THEME1: 1
+    THEME2: 1
+    THEME3: 1
     
 
   "ES":
@@ -47,8 +47,8 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 0
-    THEME2: 0
+    THEME1: 1
+    THEME2: 1
     
 
   "NQ":
@@ -66,8 +66,8 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 0
-    THEME2: 0
+    THEME1: 1
+    THEME2: 1
     
 
   "CL":
@@ -85,9 +85,9 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 0
-    THEME2: 0
-    THEME3: 0
+    THEME1: 1
+    THEME2: 1
+    THEME3: 1
     
 
   "GC":
@@ -105,9 +105,9 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 0
-    THEME2: 0
-    THEME3: 0
+    THEME1: 1
+    THEME2: 1
+    THEME3: 1
     
 
 
@@ -126,8 +126,8 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 0
-    THEME2: 0
+    THEME1: 1
+    THEME2: 1
     
 
 

@@ -1,20 +1,20 @@
-BOT_NAME: "US Futures Sim 1"
+BOT_NAME: "US Futures Pilot 1"
 BOT_ENABLED: true
 mode: "Futures"
-CQG_SUBACCOUNT: "17752709"
-CQG_USER_NAME: "awencSIM"
-harmonyEndpoint: "tcp://10.10.0.93:58027"
+CQG_SUBACCOUNT: '10857'
+CQG_USER_NAME: 'PT-AWenc-FOE'
+harmonyEndpoint: "tcp://10.20.3.28:58027" #PROD
 mainLogsPath: ~/1_Full_Logs.log
 statsLogsPath: ~/2_Stats_Logs.json
-flask_port: 9002
+flask_port: 9001
 
 data_store:
-  "YM":
-    CQG_PRODUCT_NAME: "YM"
+  "MYM":
+    CQG_PRODUCT_NAME: "MYM"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "YM"
+    KEYSTONE_PRODUCT_NAME: "MYM"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -24,17 +24,17 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
-    THEME3: 1
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
     
 
-  "ES":
-    CQG_PRODUCT_NAME: "EP"
+  "MES":
+    CQG_PRODUCT_NAME: "MES"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "ES"
+    KEYSTONE_PRODUCT_NAME: "MES"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -44,16 +44,16 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
+    THEME1: 0
+    THEME2: 0
     
 
-  "NQ":
-    CQG_PRODUCT_NAME: "ENQ"
+  "MNQ":
+    CQG_PRODUCT_NAME: "MNQ"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "NQ"
+    KEYSTONE_PRODUCT_NAME: "MNQ"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -63,16 +63,16 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
+    THEME1: 0
+    THEME2: 0
     
 
-  "CL":
-    CQG_PRODUCT_NAME: "CLE"
+  "MCL":
+    CQG_PRODUCT_NAME: "MCLE"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "CL"
+    KEYSTONE_PRODUCT_NAME: "MCL"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -82,17 +82,17 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
-    THEME3: 1
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
     
 
-  "GC":
-    CQG_PRODUCT_NAME: "GCE"
+  "MGC":
+    CQG_PRODUCT_NAME: "MGC"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "GC"
+    KEYSTONE_PRODUCT_NAME: "MGC"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -102,9 +102,9 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
-    THEME3: 1
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
     
 
 
@@ -123,8 +123,8 @@ data_store:
     STOPPED_OUT: false
     ACTION: ""
     TYPE: ""
-    THEME1: 1
-    THEME2: 1
+    THEME1: 0
+    THEME2: 0
     
 
 

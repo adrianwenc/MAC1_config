@@ -1,0 +1,33 @@
+BOT_NAME: "DERIBIT BOT"
+BOT_ENABLED: true
+mode: "Futures"
+
+# Deribit Configuration
+DERIBIT_CLIENT_ID: "DAKTg9a-"
+DERIBIT_CLIENT_SECRET: "IpV76LNhHcz37soShlsExje2gkCUJbz_hQek8on-Ki4"
+DERIBIT_TEST_MODE: true  # Set to false for production
+
+# Logging Configuration
+mainLogsPath: ~/1_Full_Logs.log
+statsLogsPath: ~/2_Stats_Logs.json
+
+flask_port: 6969
+
+data_store:
+  "BTC-PERPETUAL":
+    DERIBIT_SYMBOL: "BTC-PERPETUAL"
+    VERSION: 1
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: 'FUTURE'
+    POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: False
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
+    THEME4: 0
+    THEME5: 0
+

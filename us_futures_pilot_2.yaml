@@ -6,7 +6,7 @@ CQG_USER_NAME: 'PT-AWenc-FOE'
 harmonyEndpoint: "tcp://10.20.3.28:58027" #PROD
 mainLogsPath: ~/1_Full_Logs_pilot_2.log
 statsLogsPath: ~/2_Stats_Logs_pilot_2.json
-flask_port: 9001
+flask_port: 9002
 
 data_store:
   "MYM":

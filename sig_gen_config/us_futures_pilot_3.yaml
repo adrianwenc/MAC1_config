@@ -1,0 +1,80 @@
+
+
+# Default resample rules
+default_resample_rules:
+  '1min': {'rule': '1T', 'source': 'ohlcv-1m'}
+  '5min': {'rule': '5T', 'source': 'ohlcv-1m'}
+  '10min': {'rule': '10T', 'source': 'ohlcv-1m'}
+  '15min': {'rule': '15T', 'source': 'ohlcv-1m'}
+  '30min': {'rule': '30T', 'source': 'ohlcv-1m'}
+  '60min': {'rule': '1H', 'source': 'ohlcv-1h'}
+  '120min': {'rule': '2H', 'source': 'ohlcv-1h', 'offset': '21:00:00'}
+  '240min': {'rule': '4H', 'source': 'ohlcv-1h', 'offset': '23:00:00'}
+  '1D': {'rule': '1D', 'source': 'ohlcv-1d'}
+  '1W': {'rule': '1W-MON', 'source': 'ohlcv-1d'}  # Week starts on Monday
+
+START_TIME: '13:05' #UTC TIME
+
+
+bot_url: 'http://10.10.241.181:9003/'
+# db_path: "/mnt/c/Users/awenc/Documents/us_futures_3.db"
+db_path: "/home/awenc/dbs/us_futures_3.db"
+
+
+hist_dataset: "GLBX.MDP3"
+live_dataset: "GLBX.MDP3"
+
+
+active_contracts: ['MYMZ4' , 'MESZ4' , 'MNQZ4' , 'MCLZ4' , 'MGCZ4' , 'MBTX4' , ]
+
+data_store:
+
+ MYM:
+    timeframes: ['15min' , '30min' ]
+    sensitivity: 'signal_regular'
+    stop_ticks: '200'
+    size: '2'
+    entry_pay_up_decimal: '0.0005'
+    tick_increment: '1'
+ MES:
+    timeframes: ['30min', '120min']
+    sensitivity: 'signal_veryfast'
+    stop_ticks: '120'
+    size: '2'
+    entry_pay_up_decimal: '0.0005'
+    tick_increment: '0.25'
+
+ MNQ:
+    timeframes: ['10min', '30min' , '60min' , '240min' ]
+    sensitivity: 'signal_veryfast'
+    stop_ticks: '42'
+    size: '2'
+    entry_pay_up_decimal: '0.0005'
+    tick_increment: '0.25'
+    
+
+ MCL:
+    timeframes: ['15min', '60min', '1D']
+    sensitivity: 'signal_slow'
+    stop_ticks: '500'
+    size: '2'
+    entry_pay_up_decimal: '0.0005'
+    tick_increment: '0.01'
+    
+ 
+ MGC:
+    timeframes: ['1min', '60min', '240min']
+    sensitivity: 'signal_veryfast'
+    stop_ticks: '50'
+    size: '2'
+    entry_pay_up_decimal: '0.0005'
+    tick_increment: '0.1'
+
+ MBT:
+    timeframes: ['30min', '30min']
+    sensitivity: 'signal_veryfast'
+    stop_ticks: '50'
+    size: '2'
+    entry_pay_up_decimal: '0.0005'
+    tick_increment: '5'
+

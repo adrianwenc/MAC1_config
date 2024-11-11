@@ -9,12 +9,12 @@ statsLogsPath: ~/2_Stats_Logs_pilot_1.json
 flask_port: 9001
 
 data_store:
-  "MYM":
-    CQG_PRODUCT_NAME: "MYM"
+  "YM":
+    CQG_PRODUCT_NAME: "YM"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "MYM"
+    KEYSTONE_PRODUCT_NAME: "YM"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -29,50 +29,12 @@ data_store:
     THEME3: 0
     
 
-  "MES":
-    CQG_PRODUCT_NAME: "MES"
+  "ES":
+    CQG_PRODUCT_NAME: "EP"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "MES"
-    TRADE_ENABLED: true
-    PRODUCT_TYPE: "FUTURE"
-    POSITION: 0
-    HARMONY_POSITION: 0
-    TRADE_START: "00:01"
-    TRADE_STOP: "23:59"
-    STOPPED_OUT: false
-    ACTION: ""
-    TYPE: ""
-    THEME1: 0
-    THEME2: 0
-    
-
-  "MNQ":
-    CQG_PRODUCT_NAME: "MNQ"
-    VERSION: 1
-    CONTRACT_MONTH: "Z"
-    CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "MNQ"
-    TRADE_ENABLED: true
-    PRODUCT_TYPE: "FUTURE"
-    POSITION: 0
-    HARMONY_POSITION: 0
-    TRADE_START: "00:01"
-    TRADE_STOP: "23:59"
-    STOPPED_OUT: false
-    ACTION: ""
-    TYPE: ""
-    THEME1: 0
-    THEME2: 0
-    
-
-  "MCL":
-    CQG_PRODUCT_NAME: "MCLE"
-    VERSION: 1
-    CONTRACT_MONTH: "Z"
-    CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "MCL"
+    KEYSTONE_PRODUCT_NAME: "ES"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -87,12 +49,51 @@ data_store:
     THEME3: 0
     
 
-  "MGC":
-    CQG_PRODUCT_NAME: "MGC"
+  "NQ":
+    CQG_PRODUCT_NAME: "ENQ"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "MGC"
+    KEYSTONE_PRODUCT_NAME: "NQ"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    
+
+  "CL":
+    CQG_PRODUCT_NAME: "CLE"
+    VERSION: 1
+    CONTRACT_MONTH: "Z"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "CL"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
+    
+
+  "GC":
+    CQG_PRODUCT_NAME: "GCE"
+    VERSION: 1
+    CONTRACT_MONTH: "Z"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "GC"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -125,6 +126,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
+    THEME3: 0
     
 
 

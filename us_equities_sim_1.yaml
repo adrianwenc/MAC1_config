@@ -1,0 +1,39 @@
+BOT_NAME: "US Equity Sim 1"
+BOT_ENABLED: true
+mode: "Equities"
+CQG_SUBACCOUNT: "17752709"
+CQG_USER_NAME: "awencSIM"
+harmonyEndpoint: "tcp://10.10.0.93:58027" #SIM
+mainLogsPath: ~/1_Full_Logs_sim_1.log
+statsLogsPath: ~/2_Stats_Logs_sim_1.json
+flask_port: 9001
+KEYSTONE_WEBSOCKET_URL: "ws://10.20.3.45:5113"
+
+
+data_store:
+  "NVDA":
+    CQG_PRODUCT_NAME: "NVDA"
+    VERSION: 1
+    CONTRACT_MONTH: ""
+    CONTRACT_YEAR: ""
+    KEYSTONE_PRODUCT_NAME: "NVDA"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "EQUITY"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    
+    
+
+
+
+
+CQG_PRODUCT_TYPES:
+  FUTURE: "F.US."
+  EQUITY: "S.QH."

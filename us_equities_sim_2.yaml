@@ -1,7 +1,7 @@
 BOT_NAME: "US Equity Sim 2"
 BOT_ENABLED: true
 mode: "Equities"
-CQG_SUBACCOUNT: "17752709"
+CQG_SUBACCOUNT: "17752710"
 CQG_USER_NAME: "awencSIM"
 harmonyEndpoint: "tcp://10.10.0.93:58027" #SIM
 mainLogsPath: ~/1_Full_Logs_sim_2.log
@@ -50,6 +50,7 @@ data_store:
     THEME1: 0
     THEME2: 0
     
+    
   "AAPL":
     CQG_PRODUCT_NAME: "AAPL"
     VERSION: 1
@@ -67,7 +68,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    
+     
   
   "COST":
     CQG_PRODUCT_NAME: "COST"
@@ -107,6 +108,88 @@ data_store:
 
 
 
+  "XLE":
+    CQG_PRODUCT_NAME: "XLE"
+    VERSION: 1
+    CONTRACT_MONTH: ""
+    CONTRACT_YEAR: ""
+    KEYSTONE_PRODUCT_NAME: "XLE"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "EQUITY"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
+    THEME4: 0
+
+
+
+  "XLK":
+    CQG_PRODUCT_NAME: "XLK"
+    VERSION: 1
+    CONTRACT_MONTH: ""
+    CONTRACT_YEAR: ""
+    KEYSTONE_PRODUCT_NAME: "XLK"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "EQUITY"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
+
+
+
+  "XLRE":
+    CQG_PRODUCT_NAME: "XLRE"
+    VERSION: 1
+    CONTRACT_MONTH: ""
+    CONTRACT_YEAR: ""
+    KEYSTONE_PRODUCT_NAME: "XLRE"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "EQUITY"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
+    THEME4: 0
+
+
+  "XLU":
+    CQG_PRODUCT_NAME: "XLU"
+    VERSION: 1
+    CONTRACT_MONTH: ""
+    CONTRACT_YEAR: ""
+    KEYSTONE_PRODUCT_NAME: "XLU"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "EQUITY"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    
 
 CQG_PRODUCT_TYPES:
   FUTURE: "F.US."

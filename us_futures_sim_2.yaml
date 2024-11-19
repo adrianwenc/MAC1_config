@@ -1,22 +1,23 @@
-BOT_NAME: "US Futures Pilot 1"
+BOT_NAME: "US Futures Sim 2"
 BOT_ENABLED: true
 mode: "Futures"
-CQG_SUBACCOUNT: '10852'
-CQG_USER_NAME: 'PT-AWenc-FOE'
-harmonyEndpoint: "tcp://10.20.3.28:58027" #PROD
-mainLogsPath: ~/1_Full_Logs_pilot_1.log
-statsLogsPath: ~/2_Stats_Logs_pilot_1.json
-flask_port: 9001
+CQG_SUBACCOUNT: "17752710"
+CQG_USER_NAME: "awencSIM"
+harmonyEndpoint: "tcp://10.10.0.93:58027" #SIM
+mainLogsPath: ~/1_Full_Logs_sim_2.log
+statsLogsPath: ~/2_Stats_Logs_sim_2.json
+flask_port: 9005
 KEYSTONE_WEBSOCKET_URL: "ws://10.20.3.45:5113"
 
 
 data_store:
-  "YM":
-    CQG_PRODUCT_NAME: "YM"
+  
+  "NG":
+    CQG_PRODUCT_NAME: "NGE"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "YM"
+    KEYSTONE_PRODUCT_NAME: "NG"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -29,14 +30,15 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
-    
 
-  "ES":
-    CQG_PRODUCT_NAME: "EP"
+
+
+  "HG":
+    CQG_PRODUCT_NAME: "CPE"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "ES"
+    KEYSTONE_PRODUCT_NAME: "HG"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -48,34 +50,17 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
+    
     
 
-  "NQ":
-    CQG_PRODUCT_NAME: "ENQ"
+
+
+  "SI":
+    CQG_PRODUCT_NAME: "SIL"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "NQ"
-    TRADE_ENABLED: true
-    PRODUCT_TYPE: "FUTURE"
-    POSITION: 0
-    HARMONY_POSITION: 0
-    TRADE_START: "00:01"
-    TRADE_STOP: "23:59"
-    STOPPED_OUT: false
-    ACTION: ""
-    TYPE: ""
-    THEME1: 0
-    THEME2: 0
-    
-
-  "CL":
-    CQG_PRODUCT_NAME: "CLE"
-    VERSION: 1
-    CONTRACT_MONTH: "F"
-    CONTRACT_YEAR: "25"
-    KEYSTONE_PRODUCT_NAME: "CL"
+    KEYSTONE_PRODUCT_NAME: "SI"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -90,12 +75,12 @@ data_store:
     THEME3: 0
     
 
-  "GC":
-    CQG_PRODUCT_NAME: "GCE"
+  "RTY":
+    CQG_PRODUCT_NAME: "RTY"
     VERSION: 1
     CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "GC"
+    KEYSTONE_PRODUCT_NAME: "RTY"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -108,15 +93,14 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
-    
 
 
-  "MBT":
-    CQG_PRODUCT_NAME: "MBT"
+  "6B":
+    CQG_PRODUCT_NAME: "BP6"
     VERSION: 1
-    CONTRACT_MONTH: "X"
+    CONTRACT_MONTH: "Z"
     CONTRACT_YEAR: "24"
-    KEYSTONE_PRODUCT_NAME: "MBT"
+    KEYSTONE_PRODUCT_NAME: "6B"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
     POSITION: 0
@@ -131,6 +115,91 @@ data_store:
     THEME3: 0
     
 
+
+
+  "6E":
+    CQG_PRODUCT_NAME: EU6"
+    VERSION: 1
+    CONTRACT_MONTH: "Z"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "6E"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
+
+
+
+  "6J":
+    CQG_PRODUCT_NAME: "JY6"
+    VERSION: 1
+    CONTRACT_MONTH: "Z"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "6J"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    
+
+
+
+  "6M":
+    CQG_PRODUCT_NAME: "MX6"
+    VERSION: 1
+    CONTRACT_MONTH: "Z"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "6M"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
+
+
+
+  "UB":
+    CQG_PRODUCT_NAME: "ULA"
+    VERSION: 1
+    CONTRACT_MONTH: "Z"
+    CONTRACT_YEAR: "24"
+    KEYSTONE_PRODUCT_NAME: "UB"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    THEME3: 0
+    THEME4: 0
+    THEME5: 0
 
 
 CQG_PRODUCT_TYPES:

@@ -6,7 +6,7 @@ CQG_USER_NAME: "awencSIM"
 harmonyEndpoint: "tcp://10.10.0.93:58027" #SIM
 mainLogsPath: ~/1_Full_Logs_sim_2.log
 statsLogsPath: ~/2_Stats_Logs_sim_2.json
-flask_port: 9005
+flask_port: 9002
 KEYSTONE_WEBSOCKET_URL: "ws://10.20.3.45:5113"
 
 

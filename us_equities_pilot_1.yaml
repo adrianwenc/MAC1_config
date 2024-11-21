@@ -4,8 +4,8 @@ mode: "Equities"
 CQG_SUBACCOUNT: "396CPRME64"
 CQG_USER_NAME: "PT-AWenc-FOE"
 harmonyEndpoint: "tcp://10.20.3.28:58027" #PROD
-mainLogsPath: ~/1_Full_Logs_pilot_1.log
-statsLogsPath: ~/2_Stats_Logs_pilot_1.json
+mainLogsPath: ~/1_Full_Logs_equities_pilot_1.log
+statsLogsPath: ~/2_Stats_Logs_equity_pilot_1.json
 flask_port: 9111
 KEYSTONE_WEBSOCKET_URL: "ws://10.20.3.45:5113"
 

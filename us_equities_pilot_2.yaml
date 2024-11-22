@@ -1,0 +1,46 @@
+BOT_NAME: "US Equity Pilot 2"
+BOT_ENABLED: true
+mode: "Equities"
+CQG_SUBACCOUNT: "396CPRME64"
+CQG_USER_NAME: "PT-AWenc-FOE"
+harmonyEndpoint: "tcp://10.20.3.28:58027" #PROD
+mainLogsPath: ~/1_Full_Logs_equities_pilot_2.log
+statsLogsPath: ~/2_Stats_Logs_equity_pilot_2.json
+flask_port: 9112
+KEYSTONE_WEBSOCKET_URL: "ws://10.20.3.45:5113"
+
+
+data_store:
+
+
+
+
+  "XLF":
+    CQG_PRODUCT_NAME: "XLF"
+    VERSION: 1
+    CONTRACT_MONTH: ""
+    CONTRACT_YEAR: ""
+    KEYSTONE_PRODUCT_NAME: "XLF"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "EQUITY"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+    minimum_tick_increment: 0.01
+
+
+
+
+
+
+
+
+CQG_PRODUCT_TYPES:
+  FUTURE: "F.US."
+  EQUITY: "S.QH."

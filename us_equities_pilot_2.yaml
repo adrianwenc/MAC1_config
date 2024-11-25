@@ -32,7 +32,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    minimum_tick_increment: 0.01
+    MINIMUM_TICK_INCREMENT: 0.01
 
 
 

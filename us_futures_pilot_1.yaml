@@ -24,6 +24,7 @@ data_store:
     TRADE_START: "00:01"
     TRADE_STOP: "23:59"
     STOPPED_OUT: false
+    MINIMUM_TICK_INCREMENT: 1
     ACTION: ""
     TYPE: ""
     THEME1: 0
@@ -44,6 +45,7 @@ data_store:
     TRADE_START: "00:01"
     TRADE_STOP: "23:59"
     STOPPED_OUT: false
+    MINIMUM_TICK_INCREMENT: 0.25
     ACTION: ""
     TYPE: ""
     THEME1: 0
@@ -64,6 +66,7 @@ data_store:
     TRADE_START: "00:01"
     TRADE_STOP: "23:59"
     STOPPED_OUT: false
+    MINIMUM_TICK_INCREMENT: 0.25
     ACTION: ""
     TYPE: ""
     THEME1: 0
@@ -83,11 +86,11 @@ data_store:
     TRADE_START: "00:01"
     TRADE_STOP: "23:59"
     STOPPED_OUT: false
+    MINIMUM_TICK_INCREMENT: 0.01
     ACTION: ""
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
     
 
   "GC":
@@ -103,6 +106,7 @@ data_store:
     TRADE_START: "00:01"
     TRADE_STOP: "23:59"
     STOPPED_OUT: false
+    MINIMUM_TICK_INCREMENT: 0.1
     ACTION: ""
     TYPE: ""
     THEME1: 0
@@ -124,6 +128,7 @@ data_store:
     TRADE_START: "00:01"
     TRADE_STOP: "23:59"
     STOPPED_OUT: false
+    MINIMUM_TICK_INCREMENT: 5
     ACTION: ""
     TYPE: ""
     THEME1: 0

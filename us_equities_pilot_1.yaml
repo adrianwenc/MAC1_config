@@ -455,7 +455,7 @@ data_store:
     THEME3: 0
     THEME4: 0
 
- "XOP":
+  "XOP":
     CQG_PRODUCT_NAME: "XOP"
     VERSION: 1
     CONTRACT_MONTH: ""

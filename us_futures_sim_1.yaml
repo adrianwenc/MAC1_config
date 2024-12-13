@@ -10,6 +10,10 @@ flask_port: 9001
 KEYSTONE_WEBSOCKET_URL: "ws://10.20.3.45:5113"
 
 
+KEYSTONE_WEBSOCKET_URL: "ws://10.10.0.93:5113"  # or your appropriate URL
+KEYSTONE_HOST: "harmony"  # or your appropriate host
+KEYSTONE_USER: "sim"     # or your appropriate user
+
 data_store:
   
   "NG":

@@ -3,9 +3,13 @@ BOT_ENABLED: true
 mode: "Futures"
 
 # Deribit Configuration
-DERIBIT_CLIENT_ID: "DAKTg9a-"
-DERIBIT_CLIENT_SECRET: "IpV76LNhHcz37soShlsExje2gkCUJbz_hQek8on-Ki4"
-DERIBIT_TEST_MODE: true  # Set to false for production
+DERIBIT_PROD_CLIENT_ID: "DAKTg9a-"
+DERIBIT_PROD_CLIENT_SECRET: "IpV76LNhHcz37soShlsExje2gkCUJbz_hQek8on-Ki4"
+
+DERIBIT_TEST_CLIENT_ID: ""
+DERIBIT_TEST_CLIENT_SECRET: ""
+
+DERIBIT_TEST_MODE: false  # Set to false for production
 execution_route: "deribit"
 # Logging Configuration
 mainLogsPath: ~/1_Full_Logs.log

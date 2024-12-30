@@ -14,8 +14,11 @@ KEYSTONE_WEBSOCKET_URL: "ws://10.10.0.93:5113"  # or your appropriate URL
 KEYSTONE_HOST: "harmony"  # or your appropriate host
 KEYSTONE_USER: "sim"     # or your appropriate user
 
+
+
+
 data_store:
-  
+
 
   "MYM":
     CQG_PRODUCT_NAME: "MYM"
@@ -82,7 +85,7 @@ data_store:
   "MCL":
     CQG_PRODUCT_NAME: "MCLE"
     VERSION: 1
-    CONTRACT_MONTH: "F"
+    CONTRACT_MONTH: "H"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "MCL"
     TRADE_ENABLED: true
@@ -125,8 +128,8 @@ data_store:
   "MBT":
     CQG_PRODUCT_NAME: "MBT"
     VERSION: 1
-    CONTRACT_MONTH: "Z"
-    CONTRACT_YEAR: "24"
+    CONTRACT_MONTH: "F"
+    CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "MBT"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
@@ -145,8 +148,8 @@ data_store:
   "MET":
     CQG_PRODUCT_NAME: "GMET"
     VERSION: 1
-    CONTRACT_MONTH: "Z"
-    CONTRACT_YEAR: "24"
+    CONTRACT_MONTH: "F"
+    CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "MET"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
@@ -293,6 +296,11 @@ data_store:
     THEME1: 0
     THEME2: 0
     
+
+
+
+
+
 
 CQG_PRODUCT_TYPES:
   FUTURE: "F.US."

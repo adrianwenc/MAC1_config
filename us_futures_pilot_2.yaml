@@ -1,7 +1,7 @@
 BOT_NAME: "US Futures Pilot 2"
 BOT_ENABLED: true
 mode: "Futures"
-CQG_SUBACCOUNT: '10852'
+CQG_SUBACCOUNT: '10857
 CQG_USER_NAME: 'PT-AWenc-FOE'
 harmonyEndpoint: "tcp://10.20.3.28:58027" #PROD
 mainLogsPath: ~/1_Full_Logs_pilot_2.log

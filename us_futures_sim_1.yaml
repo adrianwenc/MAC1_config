@@ -15,8 +15,6 @@ KEYSTONE_HOST: "harmony"  # or your appropriate host
 KEYSTONE_USER: "sim"     # or your appropriate user
 
 
-
-
 data_store:
 
 
@@ -60,6 +58,7 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
+    THEME4: 0
     
 
   "MNQ":
@@ -216,7 +215,7 @@ data_store:
   "MNG":
     CQG_PRODUCT_NAME: "MNG"
     VERSION: 1
-    CONTRACT_MONTH: "F"
+    CONTRACT_MONTH: "G"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "MNG"
     TRADE_ENABLED: true
@@ -260,8 +259,8 @@ data_store:
   "M6B":
     CQG_PRODUCT_NAME: "M6B"
     VERSION: 1
-    CONTRACT_MONTH: "Z"
-    CONTRACT_YEAR: "24"
+    CONTRACT_MONTH: "H"
+    CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "M6B"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
@@ -276,12 +275,13 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
+    THEME4: 0
     
   "MJY":
     CQG_PRODUCT_NAME: "MJY"
     VERSION: 1
-    CONTRACT_MONTH: "Z"
-    CONTRACT_YEAR: "24"
+    CONTRACT_MONTH: "H"
+    CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "MJY"
     TRADE_ENABLED: true
     PRODUCT_TYPE: "FUTURE"
@@ -296,6 +296,7 @@ data_store:
     THEME1: 0
     THEME2: 0
     
+
 
 
 

@@ -72,6 +72,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
+    THEME3: 0
   
   
   "COST":
@@ -475,7 +476,7 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
-    THEME4: 0
+    
 
 
 
@@ -559,7 +560,7 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
-    THEME4: 0
+    
 
     
   "MSFT":
@@ -602,7 +603,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    
+    THEME3: 0
 
     
     
@@ -690,7 +691,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
+    
 
 
 
@@ -773,8 +774,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
-    THEME4: 0
+    
 
 
   "QUAL":
@@ -795,8 +795,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
-    THEME4: 0
+    
 
 CQG_PRODUCT_TYPES:
   FUTURE: "F.US."

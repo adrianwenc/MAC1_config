@@ -10,6 +10,7 @@ flask_port: 9101
 KEYSTONE_WEBSOCKET_URL: "ws://10.20.3.45:5113"
 
 
+
 data_store:
 
 
@@ -74,6 +75,7 @@ data_store:
     THEME2: 0
     THEME3: 0
   
+  
   "COST":
     CQG_PRODUCT_NAME: "COST"
     VERSION: 1
@@ -113,6 +115,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
+    THEME3: 0
 
   "XLE":
     CQG_PRODUCT_NAME: "XLE"
@@ -132,7 +135,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
+   
 
   "XLK":
     CQG_PRODUCT_NAME: "XLK"
@@ -216,7 +219,6 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
     
     
   "SPY":
@@ -298,6 +300,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
+    THEME3: 0
 
   "EWJ":
     CQG_PRODUCT_NAME: "EWJ"
@@ -318,7 +321,7 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
-    THEME4: 0
+    
     
     
   "EEM":
@@ -474,7 +477,7 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
-    THEME4: 0
+    
 
 
 
@@ -558,7 +561,7 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
-    THEME4: 0
+    
 
     
   "MSFT":
@@ -689,7 +692,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
+    
 
 
 
@@ -772,8 +775,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
-    THEME4: 0
+    
 
 
   "QUAL":
@@ -794,8 +796,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
-    THEME4: 0
+    
 
 CQG_PRODUCT_TYPES:
   FUTURE: "F.US."

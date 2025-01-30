@@ -1,11 +1,11 @@
 BOT_NAME: "US Futures Sim 1"
 BOT_ENABLED: true
 mode: "Futures"
-CQG_SUBACCOUNT: "17752709"
+CQG_SUBACCOUNT: "17752710"
 CQG_USER_NAME: "awencSIM"
 harmonyEndpoint: "tcp://10.10.0.93:58027" #SIM
-mainLogsPath: ~/1_Full_Logs_sim_1.log
-statsLogsPath: ~/2_Stats_Logs_sim_1.json
+mainLogsPath: ~/1_Full_Logs_sim_micros_1.log
+statsLogsPath: ~/2_Stats_Logs_sim_micros_1.json
 flask_port: 9001
 KEYSTONE_WEBSOCKET_URL: "ws://10.20.3.45:5113"
 
@@ -57,8 +57,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
-    THEME4: 0
+    
     
 
   "MNQ":
@@ -104,7 +103,7 @@ data_store:
   "MGC":
     CQG_PRODUCT_NAME: "MGC"
     VERSION: 1
-    CONTRACT_MONTH: "G"
+    CONTRACT_MONTH: "J"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "MGC"
     TRADE_ENABLED: true
@@ -127,7 +126,7 @@ data_store:
   "MBT":
     CQG_PRODUCT_NAME: "MBT"
     VERSION: 1
-    CONTRACT_MONTH: "F"
+    CONTRACT_MONTH: "G"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "MBT"
     TRADE_ENABLED: true
@@ -208,14 +207,13 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
 
     
 
   "MNG":
     CQG_PRODUCT_NAME: "MNG"
     VERSION: 1
-    CONTRACT_MONTH: "G"
+    CONTRACT_MONTH: "H"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "MNG"
     TRADE_ENABLED: true
@@ -251,8 +249,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
-    THEME4: 0
+    
     
 
 
@@ -296,6 +293,10 @@ data_store:
     THEME1: 0
     THEME2: 0
     
+
+
+
+
 
 
 

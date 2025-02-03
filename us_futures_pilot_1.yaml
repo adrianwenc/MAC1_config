@@ -98,7 +98,7 @@ data_store:
   "MGC":
     CQG_PRODUCT_NAME: "MGC"
     VERSION: 1
-    CONTRACT_MONTH: "G"
+    CONTRACT_MONTH: "J"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "MGC"
     TRADE_ENABLED: true
@@ -181,7 +181,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
+    
     
 
   "M2K":
@@ -208,7 +208,7 @@ data_store:
   "MNG":
     CQG_PRODUCT_NAME: "MNG"
     VERSION: 1
-    CONTRACT_MONTH: "G"
+    CONTRACT_MONTH: "H"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "MNG"
     TRADE_ENABLED: true

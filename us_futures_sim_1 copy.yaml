@@ -1,12 +1,12 @@
-BOT_NAME: "US Futures Sim 3"
+BOT_NAME: "US Futures Sim 1"
 BOT_ENABLED: true
 mode: "Futures"
-CQG_SUBACCOUNT: "17752709"
+CQG_SUBACCOUNT: "17752710"
 CQG_USER_NAME: "awencSIM"
 harmonyEndpoint: "tcp://10.10.0.93:58027" #SIM
-mainLogsPath: ~/1_Full_Logs_sim_micros_3.log
-statsLogsPath: ~/2_Stats_Logs_sim_micros_3.json
-flask_port: 9003
+mainLogsPath: ~/1_Full_Logs_sim_micros_1.log
+statsLogsPath: ~/2_Stats_Logs_sim_micros_1.json
+flask_port: 9001
 KEYSTONE_WEBSOCKET_URL: "ws://10.20.3.45:5113"
 
 

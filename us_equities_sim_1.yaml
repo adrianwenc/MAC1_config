@@ -33,8 +33,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
-    THEME4: 0
+    
 
   "TSLA":
     CQG_PRODUCT_NAME: "TSLA"
@@ -73,7 +72,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
+    
   
   
   "COST":
@@ -156,7 +155,7 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
-    THEME4: 0
+  
 
 
   "XLRE":
@@ -384,7 +383,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
+    
 
     
     
@@ -476,7 +475,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
+   
     
 
 
@@ -670,8 +669,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
-    THEME4: 0
+    
 
     
   "EPP":
@@ -775,6 +773,8 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
+    THEME3: 0
+    THEME4: 0
     
 
 

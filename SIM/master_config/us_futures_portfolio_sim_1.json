@@ -1,0 +1,313 @@
+{
+        "START_TIME": "11:30",
+        "bot_url": "https://us-futures-sim-1.ngrok.app",
+        "db_path": "/mnt/c/Users/awenc/Documents/databento_live.db",
+        
+
+        "portfolio_params": {
+            "total_capital": 1000000,  
+            "target_volatility": 0.30,  
+            "ewma_lambda": 0.94,       
+            "vol_lookback_days": 30,   
+            "min_position_size": 0.1,
+            "rebalance_frequency": 30
+        },
+        "rebalance_params": {
+            "rebalance_type": "comprehensive",
+            "freq": "W",
+            "lookback_periods": 3,
+            "forward_periods": 1,
+            "burn_in_period": 3,
+            "score_type": "inverse_vol",
+            "rank_type": "linear",
+            "bad_bucket_percentile": 20.0,
+            "good_bucket_percentage": 0.80,
+            "bad_bucket_percentage": 0.20,
+            "good_bucket_min_allocation": 0.1,
+            "good_bucket_max_allocation": 0.4,
+            "bad_bucket_min_allocation": 0.1,
+            "bad_bucket_max_allocation": 0.4,
+            "consecutive_bump_threshold": 2,
+            "mode": "Live"
+        },
+        "signal_server_params": {
+            "default_resample_rules": {
+                "1min": {"rule": "1T", "source": "ohlcv-1m"},
+                "5min": {"rule": "5T", "source": "ohlcv-1m"},
+                "10min": {"rule": "10T", "source": "ohlcv-1m"},
+                "15min": {"rule": "15T", "source": "ohlcv-1m"},
+                "30min": {"rule": "30T", "source": "ohlcv-1m"},
+                "60min": {"rule": "1H", "source": "ohlcv-1h"},
+                "120min": {"rule": "2H", "source": "ohlcv-1h", "offset": "21:00:00"},
+                "240min": {"rule": "4H", "source": "ohlcv-1h", "offset": "23:00:00"},
+                "1D": {"rule": "1D", "source": "ohlcv-1d"},
+                "1W": {"rule": "1W-MON", "source": "ohlcv-1d"}
+            },
+            "START_TIME": "11:30",
+            "bot_url": "http://10.10.241.25:9001/",
+            "db_path": "/mnt/c/Users/awenc/Documents/us_futures_sim_1.db",
+            "hist_dataset": "GLBX.MDP3",
+            "live_dataset": "GLBX.MDP3"
+        },
+        "live_hist_analysis_params":{
+            "keystone_account_number": "SIMAW002"
+        },
+        "alphas":{
+            "a1": {
+                "instrument": "NQ",
+                "choice_type": "first_choice",
+                "multiplier": 20,
+                "tick_size": 0.25,
+                "active_contract": "MNQH5",
+                "active_product": "MNQ",
+                "cqg_ticker": "MNQ",
+                "micro_contract_execution": true,
+                "mini_to_micro_multiplier": 0.1,
+                "params_json": {
+                    "total_pnl_vs_max_drawdown": 10.0,
+                    "score_diff_abs_threshold": 0.5,
+                    "previous_proposed_diff_threshold": [500.0],
+                    "timeframe_include_filters": [["\"10min", "15min\""]],
+                    "timeframe_exclude_filters": [["\"7min\""]]  ,
+                    "stop_loss_filter": [0.0],
+                    "max_timeframes": 2.0
+                }
+            },
+
+           "a2": {
+                "instrument": "ES",
+                "choice_type": "heuristic_choice",
+                "multiplier": 50,
+                "tick_size": 0.25,
+                "active_contract": "MESH5",
+                "active_product": "MES",
+                "cqg_ticker": "MES",
+                "micro_contract_execution": true,
+                "mini_to_micro_multiplier": 0.1,
+                "params_json": {
+                    "total_pnl_vs_max_drawdown": 0.0,
+                    "score_diff_abs_threshold": 0.5,
+                    "previous_proposed_diff_threshold": [3000.0],
+                    "timeframe_include_filters": [["\"", "15min\""]]  ,
+                    "timeframe_exclude_filters": [["\"1D", "1W\""]]  ,
+                    "stop_loss_filter": [0.0],
+                    "max_timeframes": 4.0
+                }
+            },
+
+            "a3": {
+                "instrument": "YM",
+                "choice_type": "heuristic_choice",
+                "multiplier": 5,
+                "tick_size": 1.0,
+                "active_contract": "MYMH5",
+                "active_product": "MYM",
+                "cqg_ticker": "MYM",
+                "micro_contract_execution": true,
+                "mini_to_micro_multiplier": 0.1,
+                "params_json": {
+                    "total_pnl_vs_max_drawdown": 10.0,
+                    "score_diff_abs_threshold": 0.5,
+                    "previous_proposed_diff_threshold": [3000.0],
+                    "timeframe_include_filters": [["\"", "15min\""]]  ,
+                    "timeframe_exclude_filters": [["\"7min\""]]    ,
+                    "stop_loss_filter": [0.99],
+                    "max_timeframes": 2.0
+                }
+            },
+
+
+
+            
+            "a4": {
+                "instrument": "CL",
+                "choice_type": "heuristic_choice",
+                "multiplier": 1000,
+                "tick_size": 0.01,
+                "active_contract": "MCLH5",
+                "active_product": "MCL",
+                "cqg_ticker": "MCLE",
+                "micro_contract_execution": true,
+                "mini_to_micro_multiplier": 0.1,
+                "params_json":{
+                    "total_pnl_vs_max_drawdown": 0.0, 
+                    "score_diff_abs_threshold": 1.5, 
+                    "previous_proposed_diff_threshold": [50.0], 
+                    "timeframe_include_filters": [["\"", "10min\""]] , 
+                    "timeframe_exclude_filters": [["\"1D", "1W\""]] , 
+                    "stop_loss_filter": [0.0],
+                    "max_timeframes": 2.0
+                    }
+            },
+
+            "a5": {
+                "instrument": "GC",
+                "choice_type": "first_choice",
+                "multiplier": 100,
+                "tick_size": 0.1,
+                "active_contract": "MGCJ5",
+                "active_product": "MGC",
+                "cqg_ticker": "MGC",
+                "micro_contract_execution": true,
+                "mini_to_micro_multiplier": 0.1,
+                "params_json":{
+                    "total_pnl_vs_max_drawdown": 10.0, 
+                    "score_diff_abs_threshold": 2.0, 
+                    "previous_proposed_diff_threshold": [500.0], 
+                    "timeframe_include_filters": [["\"5min", "10min", "15min", "30min\""]], 
+                    "timeframe_exclude_filters": [["\"1D", "1W\""]]  , 
+                    "stop_loss_filter": [0.99],
+                    "max_timeframes": 4.0
+                    }
+            },
+            "a6": {
+                "instrument": "BTC",
+                "choice_type": "heuristic_choice",
+                "multiplier": 25,
+                "tick_size": 5,
+                "active_contract": "MBTG5",
+                "active_product": "MBT",
+                "cqg_ticker": "MBT",
+                "micro_contract_execution": true,
+                "mini_to_micro_multiplier": 0.02,
+                "params_json":{
+                    "total_pnl_vs_max_drawdown": 0.0, 
+                    "score_diff_abs_threshold": 0.25, 
+                    "previous_proposed_diff_threshold": [500.0], 
+                    "timeframe_include_filters": [["\"5min", "10min", "15min", "30min\""]], 
+                    "timeframe_exclude_filters": [["\"7min\""]]  , 
+                    "stop_loss_filter": [0.0],
+                    "max_timeframes": 2.0
+                    }
+            },
+            "a7": {
+                "instrument": "NG",
+                "choice_type": "heuristic_choice",
+                "multiplier": 10000,
+                "tick_size": 0.001, 
+                "active_contract": "MNGH5",
+                "active_product": "MNG",
+                "cqg_ticker": "MNG",
+                "micro_contract_execution": true,
+                "mini_to_micro_multiplier": 0.1,
+                "params_json":{
+                    "total_pnl_vs_max_drawdown": -1.0, 
+                    "score_diff_abs_threshold": 5.0, 
+                    "previous_proposed_diff_threshold": [50.0], 
+                    "timeframe_include_filters": [["\"15min", "30min\""]], 
+                    "timeframe_exclude_filters": [["\"7min\""]], 
+                    "stop_loss_filter": [0.0],
+                    "max_timeframes": 3.0
+                    }
+            },
+            "a9": {
+                "instrument": "SI",
+                "choice_type": "first_choice",
+                "multiplier": 5000,
+                "tick_size": 0.005,
+                "active_contract": "SILH5",
+                "active_product": "SIL",
+                "cqg_ticker": "SIL",
+                "micro_contract_execution": true,
+                "mini_to_micro_multiplier": 0.2,
+                "params_json":{
+                    "total_pnl_vs_max_drawdown": 100.0, 
+                    "score_diff_abs_threshold": 0.25, 
+                    "previous_proposed_diff_threshold": [50.0], 
+                    "timeframe_include_filters":  [["\"", "10min\""]], 
+                    "timeframe_exclude_filters": [["\"1D", "1W\""]], 
+                    "stop_loss_filter": [0.0],
+                    "max_timeframes": 3.0
+                    }
+            },
+            "a10": {
+                "instrument": "RTY",
+                "choice_type": "heuristic_choice",
+                "multiplier": 50,
+                "tick_size": 0.10 ,
+                "active_contract": "M2KH5",
+                "active_product": "M2K",
+                "cqg_ticker": "M2K",
+                "micro_contract_execution": true,
+                "mini_to_micro_multiplier": 0.1,
+                "params_json":{
+                    "total_pnl_vs_max_drawdown": 10.0, 
+                    "score_diff_abs_threshold": 3.0, 
+                    "previous_proposed_diff_threshold": [50.0], 
+                    "timeframe_include_filters":  [["\"", "10min\""]] , 
+                    "timeframe_exclude_filters": [["\"1D", "1W\""]] , 
+                    "stop_loss_filter": [0.0],
+                    "max_timeframes": 3.0
+                    }
+            },
+            
+            
+            
+            "a12": {
+                "instrument": "HG",
+                "choice_type": "heuristic_choice",
+                "multiplier": 25000,
+                "tick_size": 0.0005,
+                "active_contract": "MHGH5",
+                "active_product": "MHG",
+                "cqg_ticker": "MHG",
+                "micro_contract_execution": true,
+                "mini_to_micro_multiplier": 0.1,
+                "params_json":{
+                    "total_pnl_vs_max_drawdown": 10.0, 
+                    "score_diff_abs_threshold": 3.0, 
+                    "previous_proposed_diff_threshold": [1000.0], 
+                    "timeframe_include_filters": [["\"", "15min\""]]  , 
+                    "timeframe_exclude_filters":  [["\"1D", "1W\""]], 
+                    "stop_loss_filter": [0.0],
+                    "max_timeframes": 2.0
+                    }
+            },
+            "a11": {
+                "instrument": "6B",
+                "choice_type": "first_choice",
+                "multiplier": 62500,
+                "tick_size": 0.0001,
+                "active_contract": "M6BH5",
+                "active_product": "M6B",
+                "cqg_ticker": "M6B",
+                "micro_contract_execution": true,
+                "mini_to_micro_multiplier": 0.1,
+                "params_json":{
+                    "total_pnl_vs_max_drawdown": 0.0, 
+                    "score_diff_abs_threshold": 0.5, 
+                    "previous_proposed_diff_threshold": [50.0], 
+                    "timeframe_include_filters": [["\"10min", "15min\""]], 
+                    "timeframe_exclude_filters":  [["\"7min\""]] , 
+                    "stop_loss_filter": [0.99],
+                    "max_timeframes": 4.0
+                    }
+            }
+            
+            
+           
+
+
+           
+
+
+           
+           
+        
+        
+        }
+    
+
+
+           
+           
+        
+        
+     
+
+
+    
+
+
+}
+

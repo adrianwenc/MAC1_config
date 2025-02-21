@@ -80,7 +80,7 @@ data_store:
   "CL":
     CQG_PRODUCT_NAME: "CLE"
     VERSION: 1
-    CONTRACT_MONTH: "H"
+    CONTRACT_MONTH: "J"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "CL"
     TRADE_ENABLED: true

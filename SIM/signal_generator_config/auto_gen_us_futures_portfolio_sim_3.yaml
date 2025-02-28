@@ -40,22 +40,17 @@ live_dataset: GLBX.MDP3
 active_contracts:
 - MNQH5
 - MESH5
-- MYMH5
-- MCLH5
-- MGCJ5
+- MCLJ5
 - MBTG5
-- MNGH5
-- M2KH5
-- MHGH5
 data_store:
   MNQ:
     timeframes:
     - 15min
-    - 1D
-    sensitivity: signal_slow
-    stop_ticks: '442'
-    stop_decimal: '0.005'
-    size: '33'
+    - 30min
+    sensitivity: signal_regular
+    stop_ticks: '177'
+    stop_decimal: '0.002'
+    size: '4'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -63,85 +58,33 @@ data_store:
     timeframes:
     - 30min
     - 60min
-    - 240min
+    - 120min
     sensitivity: signal_fast
     stop_ticks: '49'
     stop_decimal: '0.002'
-    size: '52'
+    size: '10'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
-  MYM:
-    timeframes:
-    - 30min
-    - 120min
-    sensitivity: signal_slow
-    stop_ticks: '224'
-    stop_decimal: '0.005'
-    size: '25'
-    entry_pay_up_decimal: '0.001'
-    tick_increment: '1.0'
-    take_profit_decimal: '0.03'
-  MGC:
+  MCL:
     timeframes:
     - 10min
-    - 15min
-    - 30min
     - 60min
-    - 120min
-    sensitivity: signal_regular
-    stop_ticks: '59'
+    sensitivity: signal_slow
+    stop_ticks: '14'
     stop_decimal: '0.002'
-    size: '23'
+    size: '37'
     entry_pay_up_decimal: '0.001'
-    tick_increment: '0.1'
+    tick_increment: '0.01'
     take_profit_decimal: '0.03'
   MBT:
     timeframes:
-    - 30min
+    - 10min
     - 120min
     sensitivity: signal_slow
-    stop_ticks: '97'
-    stop_decimal: '0.005'
-    size: '2'
+    stop_ticks: '19'
+    stop_decimal: '0.001'
+    size: '8'
     entry_pay_up_decimal: '0.001'
     tick_increment: '5'
-    take_profit_decimal: '0.03'
-  MNG:
-    timeframes:
-    - 10min
-    - 120min
-    sensitivity: signal_regular
-    stop_ticks: '18'
-    stop_decimal: '0.005'
-    size: '211'
-    entry_pay_up_decimal: '0.001'
-    tick_increment: '0.001'
-    take_profit_decimal: '0.03'
-  M2K:
-    timeframes:
-    - 10min
-    - 15min
-    - 120min
-    - 240min
-    sensitivity: signal_veryfast
-    stop_ticks: '11'
-    stop_decimal: '0.0005'
-    size: '176'
-    entry_pay_up_decimal: '0.001'
-    tick_increment: '0.1'
-    take_profit_decimal: '0.03'
-  MHG:
-    timeframes:
-    - 10min
-    - 15min
-    - 30min
-    - 120min
-    - 1D
-    sensitivity: signal_slow
-    stop_ticks: '10'
-    stop_decimal: '0.001'
-    size: '128'
-    entry_pay_up_decimal: '0.001'
-    tick_increment: '0.0005'
     take_profit_decimal: '0.03'

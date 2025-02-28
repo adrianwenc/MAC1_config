@@ -1,0 +1,245 @@
+---
+default_resample_rules:
+  1min:
+    rule: 1T
+    source: ohlcv-1m
+  5min:
+    rule: 5T
+    source: ohlcv-1m
+  10min:
+    rule: 10T
+    source: ohlcv-1m
+  15min:
+    rule: 15T
+    source: ohlcv-1m
+  30min:
+    rule: 30T
+    source: ohlcv-1m
+  60min:
+    rule: 1H
+    source: ohlcv-1h
+  120min:
+    rule: 2H
+    source: ohlcv-1h
+    offset: '21:00:00'
+  240min:
+    rule: 4H
+    source: ohlcv-1h
+    offset: '23:00:00'
+  1D:
+    rule: 1D
+    source: ohlcv-1d
+  1W:
+    rule: 1W-MON
+    source: ohlcv-1d
+START_TIME: '11:30'
+bot_url: http://10.10.241.25:9002/
+db_path: /mnt/c/Users/awenc/Documents/us_futures_sim_2.db
+hist_dataset: GLBX.MDP3
+live_dataset: GLBX.MDP3
+active_contracts:
+- NQH5
+- MNQH5
+- ESH5
+- YMH5
+- MYMH5
+- CLH5
+- MCLH5
+- GCJ5
+- MGCJ5
+- SIH5
+- SILH5
+- RTYH5
+- M2KH5
+- 6BH5
+- HGH5
+- MHGH5
+data_store:
+  NQ:
+    timeframes:
+    - 15min
+    - 240min
+    sensitivity: signal_veryfast
+    stop_ticks: '44'
+    stop_decimal: '0.0005'
+    size: '3'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.25'
+    take_profit_decimal: '0.03'
+  MNQ:
+    timeframes:
+    - 15min
+    - 240min
+    sensitivity: signal_veryfast
+    stop_ticks: '44'
+    stop_decimal: '0.0005'
+    size: '5'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.25'
+    take_profit_decimal: '0.03'
+  ES:
+    timeframes:
+    - 15min
+    - 30min
+    - 60min
+    - 120min
+    sensitivity: signal_fast
+    stop_ticks: '49'
+    stop_decimal: '0.002'
+    size: '3'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.25'
+    take_profit_decimal: '0.03'
+  YM:
+    timeframes:
+    - 15min
+    - 30min
+    sensitivity: signal_regular
+    stop_ticks: '221'
+    stop_decimal: '0.005'
+    size: '5'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '1.0'
+    take_profit_decimal: '0.03'
+  MYM:
+    timeframes:
+    - 15min
+    - 30min
+    sensitivity: signal_regular
+    stop_ticks: '221'
+    stop_decimal: '0.005'
+    size: '7'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '1.0'
+    take_profit_decimal: '0.03'
+  CL:
+    timeframes:
+    - 10min
+    - 240min
+    sensitivity: signal_slow
+    stop_ticks: '4'
+    stop_decimal: '0.0005'
+    size: '8'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.01'
+    take_profit_decimal: '0.03'
+  MCL:
+    timeframes:
+    - 10min
+    - 240min
+    sensitivity: signal_slow
+    stop_ticks: '4'
+    stop_decimal: '0.0005'
+    size: '6'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.01'
+    take_profit_decimal: '0.03'
+  GC:
+    timeframes:
+    - 15min
+    - 30min
+    - 60min
+    - 120min
+    sensitivity: signal_fast
+    stop_ticks: '15'
+    stop_decimal: '0.0005'
+    size: '4'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.1'
+    take_profit_decimal: '0.03'
+  MGC:
+    timeframes:
+    - 15min
+    - 30min
+    - 60min
+    - 120min
+    sensitivity: signal_fast
+    stop_ticks: '15'
+    stop_decimal: '0.0005'
+    size: '9'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.1'
+    take_profit_decimal: '0.03'
+  SI:
+    timeframes:
+    - 10min
+    - 60min
+    - 240min
+    sensitivity: signal_slow
+    stop_ticks: '13'
+    stop_decimal: '0.002'
+    size: '3'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.005'
+    take_profit_decimal: '0.03'
+  SIL:
+    timeframes:
+    - 10min
+    - 60min
+    - 240min
+    sensitivity: signal_slow
+    stop_ticks: '13'
+    stop_decimal: '0.002'
+    size: '5'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.005'
+    take_profit_decimal: '0.03'
+  RTY:
+    timeframes:
+    - 10min
+    - 60min
+    - 240min
+    sensitivity: signal_fast
+    stop_ticks: '113'
+    stop_decimal: '0.005'
+    size: '7'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.1'
+    take_profit_decimal: '0.03'
+  M2K:
+    timeframes:
+    - 10min
+    - 60min
+    - 240min
+    sensitivity: signal_fast
+    stop_ticks: '113'
+    stop_decimal: '0.005'
+    size: '1'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.1'
+    take_profit_decimal: '0.03'
+  6B:
+    timeframes:
+    - 15min
+    - 30min
+    - 240min
+    - 1D
+    sensitivity: signal_regular
+    stop_ticks: '63'
+    stop_decimal: '0.005'
+    size: '25'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.0001'
+    take_profit_decimal: '0.03'
+  HG:
+    timeframes:
+    - 15min
+    - 240min
+    sensitivity: signal_regular
+    stop_ticks: '18'
+    stop_decimal: '0.002'
+    size: '6'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.0005'
+    take_profit_decimal: '0.03'
+  MHG:
+    timeframes:
+    - 15min
+    - 240min
+    sensitivity: signal_regular
+    stop_ticks: '18'
+    stop_decimal: '0.002'
+    size: '2'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.0005'
+    take_profit_decimal: '0.03'

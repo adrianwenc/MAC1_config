@@ -202,7 +202,7 @@
             },
             "a9": {
                 "instrument": "SI",
-                "choice_type": "first_choice",
+                "choice_type": "heuristic_choice",
                 "multiplier": 5000,
                 "tick_size": 0.005,
                 "active_contract": "SIH5",
@@ -211,13 +211,13 @@
                 "micro_contract_execution": false,
                 "mini_to_micro_multiplier": 0.2,
                 "params_json":{
-                    "total_pnl_vs_max_drawdown": 100.0, 
-                    "score_diff_abs_threshold": 0.25, 
-                    "previous_proposed_diff_threshold": [50.0], 
-                    "timeframe_include_filters":  [["\"", "10min\""]], 
-                    "timeframe_exclude_filters": [["\"1D", "1W\""]], 
+                    "total_pnl_vs_max_drawdown": -1.0, 
+                    "score_diff_abs_threshold": 5.0, 
+                    "previous_proposed_diff_threshold": [500.0], 
+                    "timeframe_include_filters":  [["\"15min", "30min\""]], 
+                    "timeframe_exclude_filters": [["\"7min\""]], 
                     "stop_loss_filter": [0.0],
-                    "max_timeframes": 3.0
+                    "max_timeframes": 5.0
                     }
             },
             "a10": {

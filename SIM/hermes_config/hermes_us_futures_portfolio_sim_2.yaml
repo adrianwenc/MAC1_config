@@ -70,7 +70,6 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
-    THEME4: 0
 
   "MES":
     CQG_PRODUCT_NAME: "MES"
@@ -91,7 +90,6 @@ data_store:
     THEME1: 0
     THEME2: 0
     THEME3: 0
-    THEME4: 0
 
   "YM":
     CQG_PRODUCT_NAME: "YM"
@@ -210,6 +208,44 @@ data_store:
     THEME2: 0
     THEME3: 0
     THEME4: 0
+
+  "BTC":
+    CQG_PRODUCT_NAME: "BTC"
+    VERSION: 1
+    CONTRACT_MONTH: "H"
+    CONTRACT_YEAR: "25"
+    KEYSTONE_PRODUCT_NAME: "BTC"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    MINIMUM_TICK_INCREMENT: 5
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
+
+  "MBT":
+    CQG_PRODUCT_NAME: "MBT"
+    VERSION: 1
+    CONTRACT_MONTH: "H"
+    CONTRACT_YEAR: "25"
+    KEYSTONE_PRODUCT_NAME: "MBT"
+    TRADE_ENABLED: true
+    PRODUCT_TYPE: "FUTURE"
+    POSITION: 0
+    HARMONY_POSITION: 0
+    TRADE_START: "00:01"
+    TRADE_STOP: "23:59"
+    STOPPED_OUT: false
+    MINIMUM_TICK_INCREMENT: 5
+    ACTION: ""
+    TYPE: ""
+    THEME1: 0
+    THEME2: 0
 
   "SI":
     CQG_PRODUCT_NAME: "SIE"

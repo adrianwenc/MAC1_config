@@ -13,7 +13,7 @@ KEYSTONE_WEBSOCKET_URL: "ws://10.20.3.45:5113"
 CQG_PRODUCT_TYPES:
   FUTURE: "F.US."
   EQUITY: "S.QH."
-  
+
 data_store:
 
   "NQ":
@@ -77,7 +77,7 @@ data_store:
   "CL":
     CQG_PRODUCT_NAME: "CLE"
     VERSION: 1
-    CONTRACT_MONTH: "H"
+    CONTRACT_MONTH: "J"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "CL"
     TRADE_ENABLED: true
@@ -115,7 +115,7 @@ data_store:
   "BTC":
     CQG_PRODUCT_NAME: "BTC"
     VERSION: 1
-    CONTRACT_MONTH: "G"
+    CONTRACT_MONTH: "H"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "BTC"
     TRADE_ENABLED: true
@@ -134,7 +134,7 @@ data_store:
   "NG":
     CQG_PRODUCT_NAME: "NGE"
     VERSION: 1
-    CONTRACT_MONTH: "H"
+    CONTRACT_MONTH: "J"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "NG"
     TRADE_ENABLED: true
@@ -156,7 +156,7 @@ data_store:
   "SI":
     CQG_PRODUCT_NAME: "SIE"
     VERSION: 1
-    CONTRACT_MONTH: "H"
+    CONTRACT_MONTH: "K"
     CONTRACT_YEAR: "25"
     KEYSTONE_PRODUCT_NAME: "SI"
     TRADE_ENABLED: true

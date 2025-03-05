@@ -10,6 +10,10 @@ statsLogsPath: "~/2_Stats_Logs_sim_minis_2.json"
 flask_port: 9002
 KEYSTONE_WEBSOCKET_URL: "ws://10.20.3.45:5113"
 
+CQG_PRODUCT_TYPES:
+  FUTURE: "F.US."
+  EQUITY: "S.QH."
+  
 data_store:
 
   "NQ":

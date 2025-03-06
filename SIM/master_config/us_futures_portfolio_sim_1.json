@@ -44,25 +44,25 @@
                 "1W": {"rule": "1W-MON", "source": "ohlcv-1d"}
             },
             "START_TIME": "11:30",
-            "bot_url": "http://10.10.241.25:9002/",
-            "db_path": "/mnt/c/Users/awenc/Documents/us_futures_sim_2.db",
+            "bot_url": "http://10.10.241.25:9001/",
+            "db_path": "/mnt/c/Users/awenc/Documents/us_futures_sim_1.db",
             "hist_dataset": "GLBX.MDP3",
             "live_dataset": "GLBX.MDP3"
         },
         "live_hist_analysis_params":{
-            "keystone_account_number": "SIMAW003"
+            "keystone_account_number": "SIMAW002"
         },
 
         "hermes_config_params":{
-            "BOT_NAME": "US Futures Sim 2",
+            "BOT_NAME": "US Futures Sim 1",
             "BOT_ENABLED": true,
             "mode": "Futures",
-            "CQG_SUBACCOUNT": "17752711",
+            "CQG_SUBACCOUNT": "17752710",
             "CQG_USER_NAME": "awencSIM",
             "harmonyEndpoint": "tcp://10.10.0.93:58027",
-            "mainLogsPath": "~/1_Full_Logs_sim_minis_2.log",
-            "statsLogsPath": "~/2_Stats_Logs_sim_minis_2.json",
-            "flask_port": 9002,
+            "mainLogsPath": "~/1_Full_Logs_sim_micros_1.log",
+            "statsLogsPath": "~/2_Stats_Logs_sim_micros_1.json",
+            "flask_port": 9001,
             "KEYSTONE_WEBSOCKET_URL": "ws://10.20.3.45:5113",
             "CQG_PRODUCT_TYPES": {
                 "FUTURE": "F.US.",
@@ -159,63 +159,8 @@
 
 
             
+           
             "a4": {
-                "instrument": "CL",
-                "choice_type": "heuristic_choice",
-                "multiplier": 1000,
-                "tick_size": 0.01,
-                "active_contract": "CLJ5",
-                "active_product": "CL",
-                "cqg_ticker": "CLE",
-                "micro_contract_execution": false,
-
-                
-                "allocate_to_micro_contract": true,
-                "cme_micro_active_contract":"MCLJ5" , 
-                "cme_micro_equivalent": "MCL",
-                "cqg_micro_contract":"MCLEJ5",
-
-
-                "mini_to_micro_multiplier": 0.1,
-                "params_json":{
-                    "total_pnl_vs_max_drawdown": 0.0, 
-                    "score_diff_abs_threshold": 0.5, 
-                    "previous_proposed_diff_threshold": [50.0], 
-                    "timeframe_include_filters": [["\"", "15min\""]] , 
-                    "timeframe_exclude_filters": [["\"1D", "1W\""]] , 
-                    "stop_loss_filter": [0.0],
-                    "max_timeframes": 2.0
-                    }
-            },
-
-            "a5": {
-                "instrument": "GC",
-                "choice_type": "heuristic_choice",
-                "multiplier": 100,
-                "tick_size": 0.1,
-                "active_contract": "GCJ5",
-                "active_product": "GC",
-                "cqg_ticker": "GCE",
-                "micro_contract_execution": false,
-
-                "allocate_to_micro_contract": true,
-                "cme_micro_active_contract":"MGCJ5" , 
-                "cme_micro_equivalent": "MGC",
-                "cqg_micro_contract":"MGCJ5",
-
-
-                "mini_to_micro_multiplier": 0.1,
-                "params_json":{
-                    "total_pnl_vs_max_drawdown": -1.0, 
-                    "score_diff_abs_threshold": 5.0, 
-                    "previous_proposed_diff_threshold": [500.0], 
-                    "timeframe_include_filters": [["\"", "15min\""]] , 
-                    "timeframe_exclude_filters": [["\"7min\""]]  , 
-                    "stop_loss_filter": [0.0],
-                    "max_timeframes": 2.0
-                    }
-            },
-            "a6": {
                 "instrument": "BTC",
                 "choice_type": "first_choice",
                 "multiplier": 25,
@@ -242,117 +187,9 @@
                     "max_timeframes": 2.0
                     }
             },
-            "a7": {
-                "instrument": "NG",
-                "choice_type": "first_choice",
-                "multiplier": 10000,
-                "tick_size": 0.001, 
-                "active_contract": "NGHJ5",
-                "active_product": "NG",
-                "cqg_ticker": "NGE",
-                "micro_contract_execution": false,
-
-                "allocate_to_micro_contract": true,
-                "cme_micro_active_contract":"MNGJ5" , 
-                "cme_micro_equivalent": "MNG",
-                "cqg_micro_contract":"MNGJ5",
-
-
-                "mini_to_micro_multiplier": 0.1,
-                "params_json":{
-                    "total_pnl_vs_max_drawdown": 0.0, 
-                    "score_diff_abs_threshold": 0.5, 
-                    "previous_proposed_diff_threshold": [50.0], 
-                    "timeframe_include_filters": [["\"", "10min\""]]  , 
-                    "timeframe_exclude_filters": [["\"7min\""]]  , 
-                    "stop_loss_filter": [0.99],
-                    "max_timeframes": 5.0
-                    }
-            },
-            "a9": {
-                "instrument": "SI",
-                "choice_type": "heuristic_choice",
-                "multiplier": 5000,
-                "tick_size": 0.005,
-                "active_contract": "SIK5",
-                "active_product": "SI",
-                "cqg_ticker": "SIE",
-                "micro_contract_execution": false,
-
-                "allocate_to_micro_contract": true,
-                "cme_micro_active_contract":"SILK5" , 
-                "cme_micro_equivalent": "SIL",
-                "cqg_micro_contract":"SILK5",
-
-
-                "mini_to_micro_multiplier": 0.2,
-                "params_json":{
-                    "total_pnl_vs_max_drawdown": -1.0, 
-                    "score_diff_abs_threshold": 5.0, 
-                    "previous_proposed_diff_threshold": [500.0], 
-                    "timeframe_include_filters":  [["\"15min", "30min\""]], 
-                    "timeframe_exclude_filters": [["\"7min\""]], 
-                    "stop_loss_filter": [0.0],
-                    "max_timeframes": 5.0
-                    }
-            },
-            "a10": {
-                "instrument": "RTY",
-                "choice_type": "heuristic_choice",
-                "multiplier": 50,
-                "tick_size": 0.10 ,
-                "active_contract": "RTYH5",
-                "active_product": "RTY",
-                "cqg_ticker": "RTY",
-                "micro_contract_execution": false,
-
-                "allocate_to_micro_contract": true,
-                "cme_micro_active_contract":"M2KH5" , 
-                "cme_micro_equivalent": "M2K",
-                "cqg_micro_contract":"M2KH5",
-
-
-                "mini_to_micro_multiplier": 0.1,
-                "params_json":{
-                    "total_pnl_vs_max_drawdown": 10.0, 
-                    "score_diff_abs_threshold": 3.0, 
-                    "previous_proposed_diff_threshold": [50.0], 
-                    "timeframe_include_filters":  [["\"", "10min\""]] , 
-                    "timeframe_exclude_filters": [["\"1D", "1W\""]] , 
-                    "stop_loss_filter": [0.0],
-                    "max_timeframes": 3.0
-                    }
-            },
+          
             
-            "a11": {
-                "instrument": "6B",
-                "choice_type": "first_choice",
-                "multiplier": 62500,
-                "tick_size": 0.0001,
-                "active_contract": "6BH5",
-                "active_product": "6B",
-                "cqg_ticker": "BP6",
-                "micro_contract_execution": false,
-
-                "allocate_to_micro_contract": true,
-                "cme_micro_active_contract":"M6BH5" , 
-                "cme_micro_equivalent": "M6B",
-                "cqg_micro_contract":"M6BH5",
-
-
-                "mini_to_micro_multiplier": 0.1,
-                "params_json":{
-                    "total_pnl_vs_max_drawdown": 0.0, 
-                    "score_diff_abs_threshold": 0.5, 
-                    "previous_proposed_diff_threshold": [50.0], 
-                    "timeframe_include_filters": [["\"10min", "15min\""]], 
-                    "timeframe_exclude_filters":  [["\"7min\""]] , 
-                    "stop_loss_filter": [0.99],
-                    "max_timeframes": 4.0
-                    }
-            },
-            
-            "a12": {
+            "a5": {
                 "instrument": "HG",
                 "choice_type": "first_choice",
                 "multiplier": 25000,

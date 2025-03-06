@@ -5,7 +5,7 @@
         
 
         "portfolio_params": {
-            "total_capital": 10000000,  
+            "total_capital": 2500000,  
             "target_volatility": 0.30,  
             "ewma_lambda": 0.94,       
             "vol_lookback_days": 30,   

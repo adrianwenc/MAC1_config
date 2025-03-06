@@ -366,7 +366,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"MHGK5" , 
                 "cme_micro_equivalent": "MHG",
-                "cqg_micro_cont":"MHGK5",
+                "cqg_micro_equivalent":"MHGK5",
 
 
                 "mini_to_micro_multiplier": 0.1,

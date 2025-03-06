@@ -33,7 +33,7 @@ data_store:
     THEME2: 0
 
   "MNQ":
-    CQG_PRODUCT_NAME: "MNQH5"
+    CQG_PRODUCT_NAME: "MNQ"
     VERSION: 1
     CONTRACT_MONTH: "H"
     CONTRACT_YEAR: "25"
@@ -72,7 +72,7 @@ data_store:
     THEME3: 0
 
   "MES":
-    CQG_PRODUCT_NAME: "MESH5"
+    CQG_PRODUCT_NAME: "MES"
     VERSION: 1
     CONTRACT_MONTH: "H"
     CONTRACT_YEAR: "25"
@@ -111,7 +111,7 @@ data_store:
     THEME2: 0
 
   "MYM":
-    CQG_PRODUCT_NAME: "MYMH5"
+    CQG_PRODUCT_NAME: "MYM"
     VERSION: 1
     CONTRACT_MONTH: "H"
     CONTRACT_YEAR: "25"
@@ -149,7 +149,7 @@ data_store:
     THEME2: 0
 
   "MBT":
-    CQG_PRODUCT_NAME: "MBTH5"
+    CQG_PRODUCT_NAME: "MBT"
     VERSION: 1
     CONTRACT_MONTH: "H"
     CONTRACT_YEAR: "25"
@@ -187,7 +187,7 @@ data_store:
     THEME2: 0
 
   "MHG":
-    CQG_PRODUCT_NAME: "MHGK5"
+    CQG_PRODUCT_NAME: "MHG"
     VERSION: 1
     CONTRACT_MONTH: "K"
     CONTRACT_YEAR: "25"

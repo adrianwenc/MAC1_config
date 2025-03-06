@@ -247,7 +247,7 @@
                 "choice_type": "first_choice",
                 "multiplier": 10000,
                 "tick_size": 0.001, 
-                "active_contract": "NGHJ5",
+                "active_contract": "NGJ5",
                 "active_product": "NG",
                 "cqg_ticker": "NGE",
                 "micro_contract_execution": false,

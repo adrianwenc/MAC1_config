@@ -165,15 +165,15 @@
                 "choice_type": "first_choice",
                 "multiplier": 25,
                 "tick_size": 5,
-                "active_contract": "BTCG5",
+                "active_contract": "BTCH5",
                 "active_product": "BTC",
                 "cqg_ticker": "BTC",
                 "micro_contract_execution": false,
 
                 "allocate_to_micro_contract": true,
-                "cme_micro_active_contract":"MBTG5" , 
+                "cme_micro_active_contract":"MBTH5" , 
                 "cme_micro_equivalent": "MBT",
-                "cqg_micro_equivalent":"MBTG5",
+                "cqg_micro_equivalent":"MBTH5",
 
 
                 "mini_to_micro_multiplier": 0.02,

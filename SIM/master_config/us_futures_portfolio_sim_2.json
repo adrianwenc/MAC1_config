@@ -85,7 +85,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"MNQH5" , 
                 "cme_micro_equivalent": "MNQ",
-                "cqg_micro_equivalent":"MNQH5",
+                "cqg_micro_equivalent":"MNQ",
 
 
                 "params_json": {
@@ -114,7 +114,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"MESH5" , 
                 "cme_micro_equivalent": "MES",
-                "cqg_micro_equivalent":"MESH5",
+                "cqg_micro_equivalent":"MES",
 
 
                 "params_json": {
@@ -142,7 +142,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"MYMH5" , 
                 "cme_micro_equivalent": "MYM",
-                "cqg_micro_equivalent":"MYMH5",
+                "cqg_micro_equivalent":"MYM",
 
                 "mini_to_micro_multiplier": 0.1,
                 "params_json": {
@@ -173,7 +173,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"MCLJ5" , 
                 "cme_micro_equivalent": "MCL",
-                "cqg_micro_equivalent":"MCLEJ5",
+                "cqg_micro_equivalent":"MCLE",
 
 
                 "mini_to_micro_multiplier": 0.1,
@@ -201,7 +201,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"MGCJ5" , 
                 "cme_micro_equivalent": "MGC",
-                "cqg_micro_equivalent":"MGCJ5",
+                "cqg_micro_equivalent":"MGC",
 
 
                 "mini_to_micro_multiplier": 0.1,
@@ -228,7 +228,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"MBTH5" , 
                 "cme_micro_equivalent": "MBT",
-                "cqg_micro_equivalent":"MBTH5",
+                "cqg_micro_equivalent":"MBT",
 
 
                 "mini_to_micro_multiplier": 0.02,
@@ -255,7 +255,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"MNGJ5" , 
                 "cme_micro_equivalent": "MNG",
-                "cqg_micro_equivalent":"MNGJ5",
+                "cqg_micro_equivalent":"MNG",
 
 
                 "mini_to_micro_multiplier": 0.1,
@@ -282,7 +282,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"SILK5" , 
                 "cme_micro_equivalent": "SIL",
-                "cqg_micro_equivalent":"SILK5",
+                "cqg_micro_equivalent":"SIL",
 
 
                 "mini_to_micro_multiplier": 0.2,
@@ -309,7 +309,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"M2KH5" , 
                 "cme_micro_equivalent": "M2K",
-                "cqg_micro_equivalent":"M2KH5",
+                "cqg_micro_equivalent":"M2K",
 
 
                 "mini_to_micro_multiplier": 0.1,
@@ -337,7 +337,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"M6BH5" , 
                 "cme_micro_equivalent": "M6B",
-                "cqg_micro_equivalent":"M6BH5",
+                "cqg_micro_equivalent":"M6B",
 
 
                 "mini_to_micro_multiplier": 0.1,
@@ -366,7 +366,7 @@
                 "allocate_to_micro_contract": true,
                 "cme_micro_active_contract":"MHGK5" , 
                 "cme_micro_equivalent": "MHG",
-                "cqg_micro_equivalent":"MHGK5",
+                "cqg_micro_equivalent":"MHG",
 
 
                 "mini_to_micro_multiplier": 0.1,

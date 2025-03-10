@@ -39,35 +39,22 @@ hist_dataset: GLBX.MDP3
 live_dataset: GLBX.MDP3
 active_contracts:
 - NQH5
-- MNQH5
 - ESH5
 - MESH5
 - YMH5
 - MYMH5
 - BTCH5
-- MBTH5
 - HGK5
 - MHGK5
 data_store:
   NQ:
     timeframes:
     - 15min
-    - 30min
-    sensitivity: signal_fast
-    stop_ticks: '41'
+    - 60min
+    sensitivity: signal_veryfast
+    stop_ticks: '40'
     stop_decimal: '0.0005'
     size: '0'
-    entry_pay_up_decimal: '0.001'
-    tick_increment: '0.25'
-    take_profit_decimal: '0.03'
-  MNQ:
-    timeframes:
-    - 15min
-    - 30min
-    sensitivity: signal_fast
-    stop_ticks: '41'
-    stop_decimal: '0.0005'
-    size: '10'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -76,10 +63,10 @@ data_store:
     - 15min
     - 60min
     - 120min
-    sensitivity: signal_fast
+    sensitivity: signal_slow
     stop_ticks: '12'
     stop_decimal: '0.0005'
-    size: '1'
+    size: '2'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -88,10 +75,10 @@ data_store:
     - 15min
     - 60min
     - 120min
-    sensitivity: signal_fast
+    sensitivity: signal_slow
     stop_ticks: '12'
     stop_decimal: '0.0005'
-    size: '4'
+    size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -99,9 +86,9 @@ data_store:
     timeframes:
     - 15min
     - 240min
-    sensitivity: signal_veryfast
-    stop_ticks: '22'
-    stop_decimal: '0.0005'
+    sensitivity: signal_fast
+    stop_ticks: '85'
+    stop_decimal: '0.002'
     size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '1.0'
@@ -110,32 +97,21 @@ data_store:
     timeframes:
     - 15min
     - 240min
-    sensitivity: signal_veryfast
-    stop_ticks: '22'
-    stop_decimal: '0.0005'
-    size: '8'
+    sensitivity: signal_fast
+    stop_ticks: '85'
+    stop_decimal: '0.002'
+    size: '9'
     entry_pay_up_decimal: '0.001'
     tick_increment: '1.0'
     take_profit_decimal: '0.03'
   BTC:
     timeframes:
     - 10min
-    - 120min
-    sensitivity: signal_regular
-    stop_ticks: '17'
-    stop_decimal: '0.001'
+    - 60min
+    sensitivity: signal_fast
+    stop_ticks: '36'
+    stop_decimal: '0.002'
     size: '0'
-    entry_pay_up_decimal: '0.001'
-    tick_increment: '5'
-    take_profit_decimal: '0.03'
-  MBT:
-    timeframes:
-    - 10min
-    - 120min
-    sensitivity: signal_regular
-    stop_ticks: '17'
-    stop_decimal: '0.001'
-    size: '9'
     entry_pay_up_decimal: '0.001'
     tick_increment: '5'
     take_profit_decimal: '0.03'
@@ -143,10 +119,10 @@ data_store:
     timeframes:
     - 30min
     - 120min
-    sensitivity: signal_fast
-    stop_ticks: '18'
-    stop_decimal: '0.002'
-    size: '3'
+    sensitivity: signal_regular
+    stop_ticks: '10'
+    stop_decimal: '0.001'
+    size: '4'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.0005'
     take_profit_decimal: '0.03'
@@ -154,10 +130,10 @@ data_store:
     timeframes:
     - 30min
     - 120min
-    sensitivity: signal_fast
-    stop_ticks: '18'
-    stop_decimal: '0.002'
-    size: '5'
+    sensitivity: signal_regular
+    stop_ticks: '10'
+    stop_decimal: '0.001'
+    size: '2'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.0005'
     take_profit_decimal: '0.03'

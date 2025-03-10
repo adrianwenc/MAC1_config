@@ -21,11 +21,11 @@ default_resample_rules:
   120min:
     rule: 2H
     source: ohlcv-1h
-    offset: '21:00:00'
+    offset: '17:00:00'
   240min:
     rule: 4H
     source: ohlcv-1h
-    offset: '23:00:00'
+    offset: '21:00:00'
   1D:
     rule: 1D
     source: ohlcv-1d
@@ -33,24 +33,24 @@ default_resample_rules:
     rule: 1W-MON
     source: ohlcv-1d
 START_TIME: '17:00'
-bot_url: http://10.10.241.25:9001/
-db_path: /mnt/c/Users/awenc/Documents/us_futures_sim_1.db
-hist_dataset: GLBX.MDP3
-live_dataset: GLBX.MDP3
+bot_url: http://10.10.241.25:9101/
+db_path: /mnt/c/Users/awenc/Documents/us_equities_sim_1.db
+hist_dataset: XNAS.ITCH
+live_dataset: XNAS.ITCH
 active_contracts:
-- BTCH5
+- IBIT
 
 data_store:
   
-  BTC:
+  IBIT:
     timeframes:
     - 10min
     - 60min
     sensitivity: signal_fast
-    stop_ticks: '36'
+    stop_ticks: '9'
     stop_decimal: '0.002'
-    size: '1'
-    entry_pay_up_decimal: '0.001'
-    tick_increment: '5'
-    take_profit_decimal: '0.03'
+    size: '8795'
+    entry_pay_up_decimal: '0.005'
+    tick_increment: '0.01'
+    take_profit_decimal: '0.05'
   

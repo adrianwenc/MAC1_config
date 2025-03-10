@@ -162,7 +162,7 @@
             "choice_type": "first_choice",
             "multiplier": 25,
             "tick_size": 5,
-            "active_contract": "BTCGH5",
+            "active_contract": "BTCH5",
             "active_product": "BTC",
             "cqg_ticker": "BTC",
 

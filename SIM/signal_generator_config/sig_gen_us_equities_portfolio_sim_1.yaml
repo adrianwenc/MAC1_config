@@ -49,7 +49,7 @@ data_store:
     sensitivity: signal_fast
     stop_ticks: '9'
     stop_decimal: '0.002'
-    size: '8795'
+    size: '4398'
     entry_pay_up_decimal: '0.005'
     tick_increment: '0.01'
     take_profit_decimal: '0.05'

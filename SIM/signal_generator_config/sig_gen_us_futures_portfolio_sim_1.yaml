@@ -32,7 +32,7 @@ default_resample_rules:
   1W:
     rule: 1W-MON
     source: ohlcv-1d
-START_TIME: '17:00'
+START_TIME: '10:30'
 bot_url: http://10.10.241.25:9001/
 db_path: /mnt/c/Users/awenc/Documents/us_futures_sim_1.db
 hist_dataset: GLBX.MDP3

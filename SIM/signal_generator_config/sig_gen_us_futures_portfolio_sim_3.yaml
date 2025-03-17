@@ -32,7 +32,7 @@ default_resample_rules:
   1W:
     rule: 1W-MON
     source: ohlcv-1d
-START_TIME: '10:30'
+START_TIME: '11:30'
 bot_url: http://10.10.241.25:9003/
 db_path: /mnt/c/Users/awenc/Documents/us_futures_sim_3.db
 hist_dataset: GLBX.MDP3
@@ -61,8 +61,7 @@ data_store:
   ES:
     timeframes:
     - 15min
-    - 60min
-    - 120min
+    - 30min
     sensitivity: signal_slow
     stop_ticks: '12'
     stop_decimal: '0.0005'
@@ -73,8 +72,7 @@ data_store:
   MES:
     timeframes:
     - 15min
-    - 60min
-    - 120min
+    - 30min
     sensitivity: signal_slow
     stop_ticks: '12'
     stop_decimal: '0.0005'

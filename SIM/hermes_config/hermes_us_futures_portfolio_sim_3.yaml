@@ -69,7 +69,6 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
 
   "MES":
     CQG_PRODUCT_NAME: "MES"
@@ -89,7 +88,6 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
-    THEME3: 0
 
   "YM":
     CQG_PRODUCT_NAME: "YM"

@@ -44,6 +44,7 @@ active_contracts:
 - YMH5
 - MYMH5
 - BTCH5
+- MBTH5
 - HGK5
 - MHGK5
 data_store:
@@ -52,9 +53,9 @@ data_store:
     - 15min
     - 60min
     sensitivity: signal_veryfast
-    stop_ticks: '40'
+    stop_ticks: '39'
     stop_decimal: '0.0005'
-    size: '0'
+    size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -63,9 +64,9 @@ data_store:
     - 15min
     - 30min
     sensitivity: signal_slow
-    stop_ticks: '12'
+    stop_ticks: '11'
     stop_decimal: '0.0005'
-    size: '2'
+    size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -74,9 +75,9 @@ data_store:
     - 15min
     - 30min
     sensitivity: signal_slow
-    stop_ticks: '12'
+    stop_ticks: '11'
     stop_decimal: '0.0005'
-    size: '1'
+    size: '4'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -85,7 +86,7 @@ data_store:
     - 15min
     - 240min
     sensitivity: signal_fast
-    stop_ticks: '85'
+    stop_ticks: '82'
     stop_decimal: '0.002'
     size: '1'
     entry_pay_up_decimal: '0.001'
@@ -96,9 +97,9 @@ data_store:
     - 15min
     - 240min
     sensitivity: signal_fast
-    stop_ticks: '85'
+    stop_ticks: '82'
     stop_decimal: '0.002'
-    size: '9'
+    size: '10'
     entry_pay_up_decimal: '0.001'
     tick_increment: '1.0'
     take_profit_decimal: '0.03'
@@ -107,9 +108,20 @@ data_store:
     - 10min
     - 60min
     sensitivity: signal_fast
-    stop_ticks: '36'
+    stop_ticks: '32'
     stop_decimal: '0.002'
     size: '0'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '5'
+    take_profit_decimal: '0.03'
+  MBT:
+    timeframes:
+    - 10min
+    - 60min
+    sensitivity: signal_fast
+    stop_ticks: '32'
+    stop_decimal: '0.002'
+    size: '10'
     entry_pay_up_decimal: '0.001'
     tick_increment: '5'
     take_profit_decimal: '0.03'
@@ -120,7 +132,7 @@ data_store:
     sensitivity: signal_regular
     stop_ticks: '10'
     stop_decimal: '0.001'
-    size: '4'
+    size: '3'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.0005'
     take_profit_decimal: '0.03'

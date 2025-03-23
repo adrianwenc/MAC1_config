@@ -39,10 +39,14 @@ hist_dataset: GLBX.MDP3
 live_dataset: GLBX.MDP3
 active_contracts:
 - NQH5
+- MNQH5
 - ESH5
+- MESH5
 - YMH5
+- MYMH5
 - BTCH5
 - HGK5
+- MHGK5
 data_store:
   NQ:
     timeframes:
@@ -52,6 +56,17 @@ data_store:
     stop_ticks: '40'
     stop_decimal: '0.0005'
     size: '0'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.25'
+    take_profit_decimal: '0.03'
+  MNQ:
+    timeframes:
+    - 15min
+    - 60min
+    sensitivity: signal_veryfast
+    stop_ticks: '40'
+    stop_decimal: '0.0005'
+    size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -67,6 +82,18 @@ data_store:
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
+  MES:
+    timeframes:
+    - 15min
+    - 30min
+    - 60min
+    sensitivity: signal_fast
+    stop_ticks: '46'
+    stop_decimal: '0.002'
+    size: '2'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.25'
+    take_profit_decimal: '0.03'
   YM:
     timeframes:
     - 15min
@@ -75,6 +102,17 @@ data_store:
     stop_ticks: '85'
     stop_decimal: '0.002'
     size: '0'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '1.0'
+    take_profit_decimal: '0.03'
+  MYM:
+    timeframes:
+    - 15min
+    - 1D
+    sensitivity: signal_regular
+    stop_ticks: '85'
+    stop_decimal: '0.002'
+    size: '2'
     entry_pay_up_decimal: '0.001'
     tick_increment: '1.0'
     take_profit_decimal: '0.03'
@@ -97,6 +135,17 @@ data_store:
     stop_ticks: '20'
     stop_decimal: '0.002'
     size: '0'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.0005'
+    take_profit_decimal: '0.03'
+  MHG:
+    timeframes:
+    - 30min
+    - 60min
+    sensitivity: signal_veryfast
+    stop_ticks: '20'
+    stop_decimal: '0.002'
+    size: '4'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.0005'
     take_profit_decimal: '0.03'

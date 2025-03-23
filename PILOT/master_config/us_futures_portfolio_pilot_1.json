@@ -5,7 +5,7 @@
     
 
     "portfolio_params": {
-        "total_capital": 2500000,  
+        "total_capital": 250,  
         "target_volatility": 0.30,  
         "ewma_lambda": 0.94,       
         "vol_lookback_days": 30,   
@@ -59,7 +59,7 @@
         "mode": "Futures",
         "CQG_SUBACCOUNT": "10852",
         "CQG_USER_NAME": "PT-AWenc-FOE",
-        "harmonyEndpoint": "tcp://10.20.3.28:58027",
+        "harmonyEndpoint": "tcp://10.20.3.28:48000",
         "mainLogsPath": "~/1_Full_Logs_pilot_1.log",
         "statsLogsPath": "~/2_Stats_Logs_pilot_1.json",
         "flask_port": 9001,

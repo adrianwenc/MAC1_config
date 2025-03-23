@@ -32,13 +32,14 @@ default_resample_rules:
   1W:
     rule: 1W-MON
     source: ohlcv-1d
-START_TIME: '11:30'
+START_TIME: '13:10'
 bot_url: http://10.10.241.181:9001/
 db_path: /mnt/c/Users/awenc/Documents/us_futures_pilot_1.db
 hist_dataset: GLBX.MDP3
 live_dataset: GLBX.MDP3
 active_contracts:
 - NQH5
+- MNQH5
 - ESH5
 - MESH5
 - YMH5
@@ -55,10 +56,24 @@ data_store:
     sensitivity: signal_veryfast
     stop_ticks: '39'
     stop_decimal: '0.0005'
+    size: '0'
+    entry_pay_up_decimal: '0.001'
+    tick_increment: '0.25'
+    take_profit_decimal: '0.03'
+
+  MNQ:
+    timeframes:
+    - 15min
+    - 60min
+    sensitivity: signal_veryfast
+    stop_ticks: '39'
+    stop_decimal: '0.0005'
     size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
+
+
   ES:
     timeframes:
     - 15min
@@ -66,7 +81,7 @@ data_store:
     sensitivity: signal_slow
     stop_ticks: '11'
     stop_decimal: '0.0005'
-    size: '1'
+    size: '0'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -77,7 +92,7 @@ data_store:
     sensitivity: signal_slow
     stop_ticks: '11'
     stop_decimal: '0.0005'
-    size: '4'
+    size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -88,7 +103,7 @@ data_store:
     sensitivity: signal_fast
     stop_ticks: '82'
     stop_decimal: '0.002'
-    size: '1'
+    size: '0'
     entry_pay_up_decimal: '0.001'
     tick_increment: '1.0'
     take_profit_decimal: '0.03'
@@ -99,7 +114,7 @@ data_store:
     sensitivity: signal_fast
     stop_ticks: '82'
     stop_decimal: '0.002'
-    size: '10'
+    size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '1.0'
     take_profit_decimal: '0.03'
@@ -121,7 +136,7 @@ data_store:
     sensitivity: signal_fast
     stop_ticks: '32'
     stop_decimal: '0.002'
-    size: '10'
+    size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '5'
     take_profit_decimal: '0.03'
@@ -132,7 +147,7 @@ data_store:
     sensitivity: signal_regular
     stop_ticks: '10'
     stop_decimal: '0.001'
-    size: '3'
+    size: '0'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.0005'
     take_profit_decimal: '0.03'
@@ -143,7 +158,7 @@ data_store:
     sensitivity: signal_regular
     stop_ticks: '10'
     stop_decimal: '0.001'
-    size: '2'
+    size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.0005'
     take_profit_decimal: '0.03'

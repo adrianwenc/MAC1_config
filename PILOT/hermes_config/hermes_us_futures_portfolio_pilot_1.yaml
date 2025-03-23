@@ -4,7 +4,7 @@ BOT_ENABLED: True
 mode: "Futures"
 CQG_SUBACCOUNT: "10852"
 CQG_USER_NAME: "PT-AWenc-FOE"
-harmonyEndpoint: "tcp://10.20.3.28:58027"
+harmonyEndpoint: "tcp://10.20.3.28:48000"
 mainLogsPath: "~/1_Full_Logs_pilot_1.log"
 statsLogsPath: "~/2_Stats_Logs_pilot_1.json"
 flask_port: 9001
@@ -69,6 +69,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
+    THEME3: 0
 
   "MES":
     CQG_PRODUCT_NAME: "MES"
@@ -88,6 +89,7 @@ data_store:
     TYPE: ""
     THEME1: 0
     THEME2: 0
+    THEME3: 0
 
   "YM":
     CQG_PRODUCT_NAME: "YM"

@@ -75,7 +75,7 @@
                 "choice_type": "first_choice",
                 "multiplier": 20,
                 "tick_size": 0.25,
-                "active_contract": "NQH5",
+                "active_contract": "NQM5",
                 "active_product": "NQ",
                 "cqg_ticker": "ENQ",
                 "micro_contract_execution": false,
@@ -83,7 +83,7 @@
 
 
                 "allocate_to_micro_contract": true,
-                "cme_micro_active_contract":"MNQH5" , 
+                "cme_micro_active_contract":"MNQM5" , 
                 "cme_micro_equivalent": "MNQ",
                 "cqg_micro_equivalent":"MNQ",
 
@@ -104,7 +104,7 @@
                 "choice_type": "heuristic_choice",
                 "multiplier": 50,
                 "tick_size": 0.25,
-                "active_contract": "ESH5",
+                "active_contract": "ESM5",
                 "active_product": "ES",
                 "cqg_ticker": "EP",
                 "micro_contract_execution": false,
@@ -112,7 +112,7 @@
 
                 
                 "allocate_to_micro_contract": true,
-                "cme_micro_active_contract":"MESH5" , 
+                "cme_micro_active_contract":"MESM5" , 
                 "cme_micro_equivalent": "MES",
                 "cqg_micro_equivalent":"MES",
 
@@ -133,14 +133,14 @@
                 "choice_type": "heuristic_choice",
                 "multiplier": 5,
                 "tick_size": 1.0,
-                "active_contract": "YMH5",
+                "active_contract": "YMM5",
                 "active_product": "YM",
                 "cqg_ticker": "YM",
                 "micro_contract_execution": false,
 
                 
                 "allocate_to_micro_contract": true,
-                "cme_micro_active_contract":"MYMH5" , 
+                "cme_micro_active_contract":"MYMM5" , 
                 "cme_micro_equivalent": "MYM",
                 "cqg_micro_equivalent":"MYM",
 
@@ -167,13 +167,13 @@
                 "choice_type": "first_choice",
                 "multiplier": 25,
                 "tick_size": 5,
-                "active_contract": "BTCH5",
+                "active_contract": "BTCJ5",
                 "active_product": "BTC",
                 "cqg_ticker": "BTC",
                 "micro_contract_execution": false,
 
                 "allocate_to_micro_contract": true,
-                "cme_micro_active_contract":"MBTH5" , 
+                "cme_micro_active_contract":"MBTJ5" , 
                 "cme_micro_equivalent": "MBT",
                 "cqg_micro_equivalent":"MBT",
 

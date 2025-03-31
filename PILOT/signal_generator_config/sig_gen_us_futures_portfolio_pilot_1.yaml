@@ -32,7 +32,7 @@ default_resample_rules:
   1W:
     rule: 1W-MON
     source: ohlcv-1d
-START_TIME: '13:55'
+START_TIME: '11:30'
 bot_url: http://10.10.241.181:9001/
 db_path: /mnt/c/Users/awenc/Documents/us_futures_pilot_1.db
 hist_dataset: GLBX.MDP3
@@ -44,7 +44,7 @@ active_contracts:
 - MESM5
 - YMM5
 - MYMM5
-- BTCH5
+- BTCJ5
 - HGK5
 - MHGK5
 data_store:
@@ -90,7 +90,7 @@ data_store:
     sensitivity: signal_fast
     stop_ticks: '46'
     stop_decimal: '0.002'
-    size: '1'
+    size: '2'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -112,7 +112,7 @@ data_store:
     sensitivity: signal_regular
     stop_ticks: '85'
     stop_decimal: '0.002'
-    size: '1'
+    size: '2'
     entry_pay_up_decimal: '0.001'
     tick_increment: '1.0'
     take_profit_decimal: '0.03'
@@ -145,7 +145,7 @@ data_store:
     sensitivity: signal_veryfast
     stop_ticks: '20'
     stop_decimal: '0.002'
-    size: '1'
+    size: '4'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.0005'
     take_profit_decimal: '0.03'

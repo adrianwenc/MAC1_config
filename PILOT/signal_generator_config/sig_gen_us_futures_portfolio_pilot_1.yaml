@@ -90,7 +90,7 @@ data_store:
     sensitivity: signal_fast
     stop_ticks: '46'
     stop_decimal: '0.002'
-    size: '2'
+    size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.25'
     take_profit_decimal: '0.03'
@@ -112,7 +112,7 @@ data_store:
     sensitivity: signal_regular
     stop_ticks: '85'
     stop_decimal: '0.002'
-    size: '2'
+    size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '1.0'
     take_profit_decimal: '0.03'
@@ -145,7 +145,7 @@ data_store:
     sensitivity: signal_veryfast
     stop_ticks: '20'
     stop_decimal: '0.002'
-    size: '4'
+    size: '1'
     entry_pay_up_decimal: '0.001'
     tick_increment: '0.0005'
     take_profit_decimal: '0.03'
